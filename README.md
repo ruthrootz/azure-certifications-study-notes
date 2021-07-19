@@ -7,4 +7,3 @@
 ### AZ-204
 - [exam](https://docs.microsoft.com/en-us/learn/certifications/azure-developer/)
 - [notes]()
-- 
