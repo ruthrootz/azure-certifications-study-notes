@@ -8,7 +8,7 @@
     - Network Security Group that acts as a firewall
 - stopping/deallocating/costs
     - stopping a VM using the Azure Portal stop button
-        - "deallocates" the VM which removes it from the phsyical server
+        - "deallocates" the VM which removes it from the physical server
         - and deletes anything in the temporary storage disk
         - puts the VM in "stopped" and "deallocated" states
         - restarting the VM will give it a new public IP address
@@ -18,4 +18,4 @@
         - doesn't delete temporary data
         - keeps original public IP
     - there is a partial compute charge for VMs in the stopped state and no charge for compute time for VMs in the deallocated state
-    - there's a partial charge for the OS disk when a VM is deallocated because the disk is a seperate resource from the VM
+    - there's a partial charge for the OS disk when a VM is deallocated because the disk is a separate resource from the VM
