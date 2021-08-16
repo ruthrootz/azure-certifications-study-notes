@@ -22,6 +22,10 @@
     - you can alter the public IP resource to be a static address that doesn't change even if the VM has been deallocated/reallocated
 - availability set
     - when creating a VM you can choose to make it part of an availability set
-    - doing this tells Azure to spread your VMs across different fault domains and update domains
+    - Azure spreads the VMs that are in the set across different fault domains and update domains
         - fault domain: separate server with its own power source and network link, not dependent on other servers
         - update domain: a set of servers that gets updated at the same time
+    - you create an availability set with the number of fault and update domains you want
+    - availability sets are for VMs in the same region
+    - once a VM is created you can't assign it to a set
+    - an availability set is a resource
