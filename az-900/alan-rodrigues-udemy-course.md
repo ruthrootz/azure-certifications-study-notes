@@ -41,3 +41,7 @@
     - you can control maintenance events
 - workload
     - an application or a service (e.g. a web app, a DB server) that you can host on Azure using a service (say, a VM that you install the app/server onto)
+- Azure Pricing Calculator vs. Cost Management vs. TOC Calculator
+    - Pricing Calculator: for estimating prices of hosting resources
+    - Cost Management: seeing costs for resources you're already running
+    - TOC Calculator: estimating price for migrating workload/s onto Azure
