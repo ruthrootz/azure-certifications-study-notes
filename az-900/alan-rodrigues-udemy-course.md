@@ -1,4 +1,4 @@
-[Microsoft Azure - Beginner's Guide + AZ-900 - 2021](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
+# [Microsoft Azure - Beginner's Guide + AZ-900 - 2021](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
 
 ### Azure Virtual Machines
 - resources that get created when you create a VM
