@@ -45,3 +45,15 @@
     - Pricing Calculator: for estimating prices of hosting resources
     - Cost Management: seeing costs for resources you're already running
     - TOC Calculator: estimating price for migrating workload/s onto Azure
+
+### Azure Virtual Networks
+- IPs
+    - the private IP of a VM in a vnet is within the vnet's IP range
+    - the public IP of a VM is the only one you can use to access the VM
+    - IP (and the network security group) resources are attached to the network interface resource (which acts as a NIC) which is then attached to the VM
+- for each vnet you assign an IP range (for the private IP addresses) and you can add subnets to the vnet (which starts with a default subnet)
+    - a subnet is a subset of the assigned IP range
+- a VM
+    - can only be part of one vnet
+    - can't be moved between networks
+    - must be in the same region as the vnet you want it to be connected to
