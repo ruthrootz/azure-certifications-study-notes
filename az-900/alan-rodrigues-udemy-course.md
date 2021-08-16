@@ -25,12 +25,19 @@
     - Azure spreads the VMs that are in the set across different fault domains and update domains
         - fault domain: separate server with its own power source and network link, not dependent on other servers
         - update domain: a set of servers that gets updated at the same time
-    - you create an availability set with the number of fault and update domains you want
+    - you create an availability set with the number of fault (up to 3) and update (up to 20) domains
     - availability sets are for VMs in the same region
     - once a VM is created you can't assign it to a set
     - an availability set is a resource
+    - using sets ups VM SLA to 99.95%
 - availability zones
     - an availability zone is a collection of data centers within a region
     - instead of separating VMs only across physical servers, zones let you separate them also across a geographic area
-    - using zones gives a 99.99% SLA
+    - using zones ups VM SLA to 99.99%
 - there is no extra cost for availability zones or sets, but there is a cost for bandwidth between zones ($0.01/GB)
+- dedicated host
+    - you are the only customer on the physical host
+    - your data is more secure
+    - you can control maintenance events
+- workload
+    - an application or a service (e.g. a web app, a DB server) that you can host on Azure using a service (say, a VM that you install the app/server onto)
