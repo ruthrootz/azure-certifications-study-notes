@@ -20,3 +20,8 @@
     - there is a partial compute charge for VMs in the stopped state and no charge for compute time for VMs in the deallocated state
     - there's a partial charge for the OS disk when a VM is deallocated because the disk is a separate resource from the VM
     - you can alter the public IP resource to be a static address that doesn't change even if the VM has been deallocated/reallocated
+- availability set
+    - when creating a VM you can choose to make it part of an availability set
+    - doing this tells Azure to spread your VMs across different fault domains and update domains
+        - fault domain: separate server with its own power source and network link, not dependent on other servers
+        - update domain: a set of servers that gets updated at the same time
