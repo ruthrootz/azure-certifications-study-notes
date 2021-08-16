@@ -32,4 +32,5 @@
 - availability zones
     - an availability zone is a collection of data centers within a region
     - instead of separating VMs only across physical servers, zones let you separate them also across a geographic area
+    - using zones gives a 99.99% SLA
 - there is no extra cost for availability zones or sets, but there is a cost for bandwidth between zones ($0.01/GB)
