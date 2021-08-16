@@ -31,5 +31,5 @@
     - an availability set is a resource
 - availability zones
     - an availability zone is a collection of data centers within a region
-    - instead of separating VMs only across physical servers zone let you separate them also across a wide geographic area
+    - instead of separating VMs only across physical servers, zones let you separate them also across a geographic area
 - there is no extra cost for availability zones or sets, but there is extra cost for zones because you'll be paying more for bandwidth when communicating between VMs
