@@ -94,4 +94,4 @@
     - queue: used to send messages between components
 - on a storage account, you create a container to hold blob data
     - you can change the access level on each container
-    - in the container you can set the access tier, hot/cool/archive
+    - in the container you can set the access tier, hot/cool/archive, for each blob
