@@ -69,3 +69,7 @@
     - the first rule that the request matches is the one that will be followed and the others will be ignored
         - you can set the order of the rules with the priority value
         - the rules get evaluated lowest number to largest
+- application security group
+    - a logical group of VMs/servers/etc. (that are all linked to the same NSG) that you can use as destination/source when creating NSG rules
+    - use if you, let's say, want to write some rules just for your web servers and some just for your DB servers
+    - your web servers will be one application security group and your DB servers another
