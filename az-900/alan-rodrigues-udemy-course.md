@@ -92,3 +92,4 @@
     - table: used to store table data
     - file: used for file shares, accessed via SMB (server message block protocol)
     - queue: used to send messages between components
+- on a storage account, you create a container to hold the data
