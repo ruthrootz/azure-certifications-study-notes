@@ -73,7 +73,8 @@
     - a logical group of VMs/servers/etc. (that are all linked to the same NSG) that you can use as destination/source when creating NSG rules
     - use if you, let's say, want to write some rules just for your web servers and some just for your DB servers
     - your web servers will be one application security group and your DB servers another
-- you can connect servers on different vnets via their private IP addresses by putting a virtual network peering connection on each vnet
+- virtual network peering
+    - you can connect servers on different vnets via their private IP addresses by putting a virtual network peering connection on each vnet
 - point-to-site VPN connection
     - with this you can connect outside-network machines to servers on a vnet via their private IP
     - deploy an Azure VPN gateway resource to create the VPN connections to connect the outside machines to the private IP vnet servers
@@ -81,3 +82,5 @@
     - connect an entire on-premise network to your vnet machines via their private IPs
     - create a VPN gateway that is also linked to a local network gateway
     - the local network gateway knows the public IP of the router for the on-premise network and allows traffic from that network onto the vnet through the VPN gateway
+- ExpressRoute circuit
+    - 
