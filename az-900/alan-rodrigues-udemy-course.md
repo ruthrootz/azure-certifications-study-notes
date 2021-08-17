@@ -57,3 +57,12 @@
     - can only be part of one vnet
     - can't be moved between networks
     - must be in the same region as the vnet you want it to be connected to
+- network security group
+    - a NSG can either be assigned to a single NIC for a single VM or an entire subnet
+    - it has a list of inbound and outbound security rules
+    - some rules are created by default and cannot be changed or removed
+    - info needed for rules
+        - priority
+        - port
+        - protocol
+        - source and destination
