@@ -85,3 +85,5 @@
 - ExpressRoute circuit
     - you connect your on-prem network directly to your Azure network using Microsoft's own infrastructure, instead of using the public internet
     - you either have to connect to a Microsoft datacenter or find another Microsoft customer that uses their infrastructure and will let you plug in
+
+### Azure Storage
