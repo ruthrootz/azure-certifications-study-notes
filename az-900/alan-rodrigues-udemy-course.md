@@ -87,3 +87,8 @@
     - you either have to connect to a Microsoft datacenter or find another Microsoft customer that uses their infrastructure and will let you plug in
 
 ### Azure Storage
+- types of Azure storage accounts
+    - blob: on a virtual hard disk, used for object files and large files
+    - table: used to store table data
+    - file: used for file shares, accessed via SMB (server message block protocol)
+    - queue: used to send messages between components
