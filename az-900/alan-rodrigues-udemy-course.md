@@ -92,4 +92,6 @@
     - table: used to store table data
     - file: used for file shares, accessed via SMB (server message block protocol)
     - queue: used to send messages between components
-- on a storage account, you create a container to hold the data
+- on a storage account, you create a container to hold blob data
+    - you can change the access level on each container
+    - in the container you can set the access tier, hot/cool/archive
