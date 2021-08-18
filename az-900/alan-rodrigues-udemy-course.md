@@ -92,10 +92,7 @@
     - table: used to store table data
     - file: used for file shares, accessed via SMB (server message block protocol)
     - queue: used to send messages between components
-- blob storage
-    - on a storage account, you create a container to hold blob data
-    - you can change the access level on each container
-    - in the container you can set the access tier, hot/cool/archive, for each blob
+- you can create multiple storage resources (containers, file shares, etc.) per storage account
 - storage account redundancy options
     - locally redundant: three copies of your data across storage devices in the same data centers
     - zone-redundant: data is copied three times across three data centers within a zone
@@ -103,5 +100,10 @@
     - read-access geo-redundant: you can read data from either region instead of just the primary one
     - geo-zone-redundant: combines zone and region redundancy
     - cost increases because you have to store more data and you have to pay for moving data across regions (and zones?)
+- blob storage
+    - on a storage account, you create a container to hold blob data
+    - you can change the access level on each container
+    - in the container you can set the access tier, hot/cool/archive, for each blob
 - file storage
-    - 
+    - used to store files that are shared between users
+    - you can create, let's say, one file share per department
