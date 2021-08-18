@@ -124,8 +124,24 @@
 - region pairs
     - when you choose geo-redundant storage, you can't choose the secondary region; the secondary region will be the region that is paired with the primary region
 - Azure SQL databases
-    - you can either run your own SQL server on a VM (IaaS)
+    - you can either run your own SQL server on a VM (IaaS) and have full control
+        - you can choose to access the DB only via private IP
+        - you have to create backup solutions
+        - you have to do the work to guarantee availability
     - or you can use PaaS SQL server where you only have to deal with the server and not the infrastructure it's running on
+        - has built-in backup
+        - 99.99 SLA
         - single database: you create a DB from scratch on Azure
         - managed instance: move existing DBs onto Azure, created the DBs you need automatically
         - elastic pool: all your DBs share the underlying resources
+    - when you create a SQL server, Azure creates the DB and the server itself that the DB is hosted on
+        - you can't actually log into the server because Azure is managing it, not you (because PaaS)
+        - when creating, you can choose to add the DB to an elastic pool
+        - if you choose a DTU (database transaction unit) service tier
+            - you have a set amount of CPU processing power and memory that your DB can use
+            - you have to increase that capacity if you want more DTUs, it doesn't automatically scale
+            - a DTU is a unit of measure that combines CPU and memory
+            - you can also choose a max size for the DB
+        - if you could choose a vCore-based service tier
+            - you set the number of virtual cores and amount of memory
+            - this service automatically scales
