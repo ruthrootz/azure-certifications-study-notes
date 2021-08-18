@@ -104,6 +104,8 @@
     - on a storage account, you create a container to hold blob data
     - you can change the access level on each container
     - in the container you can set the access tier, hot/cool/archive, for each blob
+    - block blob: used to store text and binary data
+    - page blob: a virtual hard disk to store any type of data
 - file storage
     - used to store files that are shared between users
     - you can create, let's say, one file share per department
