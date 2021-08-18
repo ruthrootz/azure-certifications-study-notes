@@ -123,3 +123,9 @@
     - stores non-relational data
 - region pairs
     - when you choose geo-redundant storage, you can't choose the secondary region; the secondary region will be the region that is paired with the primary region
+- Azure SQL databases
+    - you can either run your own SQL server on a VM (IaaS)
+    - or you can use PaaS SQL server where you only have to deal with the server and not the infrastructure it's running on
+        - single database: you create a DB from scratch on Azure
+        - managed instance: move existing DBs onto Azure, created the DBs you need automatically
+        - elastic pool: all your DBs share the underlying resources
