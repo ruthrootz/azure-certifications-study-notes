@@ -107,3 +107,5 @@
 - file storage
     - used to store files that are shared between users
     - you can create, let's say, one file share per department
+    - unlike with blobs, you have to first connect to the file share to view the files using their URLs
+    - you can connect to the file share by running a PowerShell script that Azure provides per file share
