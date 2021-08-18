@@ -140,9 +140,8 @@
         - when creating, you can choose to add the DB to an elastic pool
         - if you choose a DTU (database transaction unit) service tier
             - you have a set amount of CPU processing power and memory that your DB can use
-            - you have to increase that capacity if you want more DTUs, it doesn't automatically scale
+            - you have to increase that capacity if you want more DTUs
             - a DTU is a unit of measure that combines CPU and memory
             - you can also choose a max size for the DB
         - if you could choose a vCore-based service tier
             - you set the number of virtual cores and amount of memory
-            - this service automatically scales
