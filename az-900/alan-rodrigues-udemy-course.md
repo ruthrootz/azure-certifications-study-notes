@@ -113,3 +113,8 @@
     - one part of your app can add messages to the queue that can be picked up by another app and do something given each message
     - one app adds to the queue and another removes from the queue
     - FIFO structure
+- table storage
+    - entities in a table have to each have a partition key and a row key, which uniquely identify each row (act as PK)
+        - the partition key is the column that Azure uses to group data (with the same key value) into partitions to make it faster to query the data
+            - example of a partition key: city, product category
+        - row key is usually an id property
