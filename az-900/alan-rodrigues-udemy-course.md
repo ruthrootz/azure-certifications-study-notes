@@ -118,3 +118,4 @@
         - the partition key is the column that Azure uses to group data (with the same key value) into partitions to make it faster to query the data
             - example of a partition key: city, product category
         - row key is usually an id property
+    - stores non-relational data
