@@ -121,3 +121,5 @@
             - example of a partition key: city, product category
         - row key is usually an id property
     - stores non-relational data
+- region pairs
+    - when you choose geo-redundant storage, you can't choose the secondary region; the secondary region will be the region that is paired with the primary region
