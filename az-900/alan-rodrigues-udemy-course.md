@@ -109,3 +109,7 @@
     - you can create, let's say, one file share per department
     - unlike with blobs, you have to first connect to the file share to view the files using their URLs
     - you can connect to the file share by running a PowerShell script that Azure provides per file share
+- queue storage
+    - one part of your app can add messages to the queue that can be picked up by another app and do something given each message
+    - one app adds to the queue and another removes from the queue
+    - FIFO structure
