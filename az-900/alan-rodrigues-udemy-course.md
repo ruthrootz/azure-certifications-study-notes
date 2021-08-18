@@ -126,6 +126,7 @@
 - Azure SQL databases
     - you can either run your own SQL server on a VM (IaaS) and have full control
         - you can choose to access the DB only via private IP
+        - you access the DB through the VM itself
         - you have to create backup solutions
         - you have to do the work to guarantee availability
     - or you can use PaaS SQL server where you only have to deal with the server and not the infrastructure it's running on
