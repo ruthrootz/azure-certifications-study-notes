@@ -169,7 +169,11 @@
     - there are app service plans: free, shared env, basic dedicated, standard production, premium performance, high performance and secure
         - you get different running time limits for the different plans
 - VM scale sets
-    - 
+    - when a VM starts to reach the limits of its CPU
+        - you can increase the VM's CPU size
+        - or you can create a scale set that will automatically add VMs based on the CPU usage of your VM
+        - create a custom image to apply to each new VM, otherwise you have to set up each VM as it gets created
+        - you can add another condition to remove VMs when CPU usage goes below a certain percentage
 - Azure load balancer
 - Azure traffic manager
 - 
