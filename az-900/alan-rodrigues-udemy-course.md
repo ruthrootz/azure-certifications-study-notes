@@ -179,7 +179,8 @@
 - Azure Resource Manager Templates
     - 
 - Azure traffic manager
-- 
+- Azure Functions
+- Azure Logic Apps
 
 ### more Azure core services - part 2
 
