@@ -147,3 +147,9 @@
             - you set the number of virtual cores and amount of memory
 
 ### understanding cloud concepts
+
+### more Azure core services
+
+### security, privacy, compliance and trust
+
+### Azure pricing and support
