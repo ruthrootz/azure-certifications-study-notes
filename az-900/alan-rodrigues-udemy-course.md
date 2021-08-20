@@ -151,7 +151,7 @@
 - scalability
 - disaster recovery (through redundancy)
 - elasticity (how flexible a workload is to changing demands)
-- fault tollerance
+- fault tolerance
 - cloud service types
     - IaaS
     - PaaS
@@ -163,7 +163,9 @@
     - operational expenditure: recurring costs
 
 ### more Azure core services - part 1
-- 
+- Azure web apps
+    - you can host your app on a VM, IaaS
+    - you can deploy it on an Azure app service, PaaS
 
 ### more Azure core services - part 2
 
