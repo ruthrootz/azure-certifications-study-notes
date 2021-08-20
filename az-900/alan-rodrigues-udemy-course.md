@@ -147,7 +147,20 @@
             - you set the number of virtual cores and amount of memory
 
 ### understanding cloud concepts
-- 
+- high availability
+- scalability
+- disaster recovery (through redundancy)
+- elasticity (how flexible a workload is to changing demands)
+- fault tollerance
+- cloud service types
+    - IaaS
+    - PaaS
+    - SaaS
+- economies of scale
+    - Azure owns a ton of infrastructure, which lowers the average cost of the components
+        - the cost savings gets passed to the customer
+    - capital expenditure: initial cost
+    - operational expenditure: recurring costs
 
 ### more Azure core services - part 1
 - 
