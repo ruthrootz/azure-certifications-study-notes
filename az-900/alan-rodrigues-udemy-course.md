@@ -1,6 +1,6 @@
 # [Microsoft Azure - Beginner's Guide + AZ-900 - 2021](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
 
-### Azure Virtual Machines
+### Azure virtual machines
 - resources that get created when you create a VM
     - a virtual network
     - disk to store the OS and additional disks you choose
@@ -46,7 +46,7 @@
     - Cost Management: seeing costs for resources you're already running
     - TOC Calculator: estimating price for migrating workload/s onto Azure
 
-### Azure Virtual Networks
+### Azure virtual networks
 - IPs
     - the private IP of a VM in a vnet is within the vnet's IP range
     - the public IP of a VM is the only one you can use to access the VM
@@ -86,7 +86,7 @@
     - you connect your on-prem network directly to your Azure network using Microsoft's own infrastructure, instead of using the public internet
     - you either have to connect to a Microsoft datacenter or find another Microsoft customer that uses their infrastructure and will let you plug in
 
-### Azure Storage
+### Azure storage
 - types of Azure storage accounts
     - blob: on a virtual hard disk, used for object files and large files
     - table: used to store table data
@@ -145,3 +145,5 @@
             - you can also choose a max size for the DB
         - if you could choose a vCore-based service tier
             - you set the number of virtual cores and amount of memory
+
+### understanding cloud concepts
