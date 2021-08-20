@@ -177,7 +177,9 @@
 - Azure load balancer
     - equally split traffic between the VMs hosting your app
 - Azure Resource Manager Templates
-    - 
+    - a JSON template that will create a set of resources that you frequently need to create
+    - e.g. you frequently create test environments (a combination of VM/client, server, DB)
+    - you can find templates on Azure Market
 - Azure traffic manager
 - Azure Functions
 - Azure Logic Apps
