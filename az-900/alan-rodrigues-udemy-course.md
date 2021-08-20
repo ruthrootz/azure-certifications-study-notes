@@ -175,6 +175,9 @@
         - create a custom image to apply to each new VM, otherwise you have to set up each VM as it gets created
         - you can add another condition to remove VMs when CPU usage goes below a certain percentage
 - Azure load balancer
+    - equally split traffic between the VMs hosting your app
+- Azure Resource Manager Templates
+    - 
 - Azure traffic manager
 - 
 
