@@ -149,7 +149,10 @@
 ### understanding cloud concepts
 - 
 
-### more Azure core services
+### more Azure core services - part 1
+- 
+
+### more Azure core services - part 2
 
 ### security, privacy, compliance and trust
 
