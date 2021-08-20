@@ -181,6 +181,10 @@
     - e.g. you frequently create test environments (a combination of VM/client, server, DB)
     - you can find templates on Azure Market
 - Azure traffic manager
+    - DNS routing service
+    - create an Azure traffic manager profile that connects to multiple endpoints
+    - the traffic manager profile can route to any location, globally, whereas the load balancer can only route within a region
+    - the traffic manager can route based on different methods, like priority or weightage
 - Azure Functions
 - Azure Logic Apps
 
