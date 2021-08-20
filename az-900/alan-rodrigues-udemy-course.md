@@ -163,7 +163,7 @@
     - operational expenditure: recurring costs
 
 ### more Azure core services - part 1
-- Azure web apps
+- Azure (web) apps
     - you can host your app on a VM, IaaS
     - or you can deploy it on an Azure web app service, PaaS
     - there are app service plans: free, shared env, basic dedicated, standard production, premium performance, high performance and secure
@@ -179,12 +179,12 @@
 - Azure Resource Manager Templates
     - a JSON template that will create a set of resources that you frequently need to create
     - e.g. you frequently create test environments (a combination of VM/client, server, DB)
-    - you can find templates on Azure Market
+    - you can find templates on Azure Marketplace
 - Azure traffic manager
     - DNS routing service
     - create an Azure traffic manager profile that connects to multiple endpoints
     - the traffic manager profile can route to any location, globally, whereas the load balancer can only route within a region
-    - the traffic manager can route based on different methods, like priority or weightage
+    - the traffic manager can route based on different attributes, like priority or weightage
 - serverless services
     - Azure Functions
     - Azure Logic Apps
