@@ -166,6 +166,8 @@
 - Azure web apps
     - you can host your app on a VM, IaaS
     - you can deploy it on an Azure app service, PaaS
+    - there are app service plans: free, shared env, basic dedicated, standard production, premium performance, high performance and secure
+        - you get different running time limits for the different plans
 
 ### more Azure core services - part 2
 
