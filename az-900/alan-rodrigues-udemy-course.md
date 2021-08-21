@@ -217,7 +217,7 @@
         - it can provide DNS names to your containers
         - it can restart, create, kill containers
     - Azure Kubernetes
-        - 
+        - you can create a Kubernetes resource in Azure through which you can create and manage containers
 - Azure Content Delivery Network
 - Azure Advisor
 - Azure Application Insights
