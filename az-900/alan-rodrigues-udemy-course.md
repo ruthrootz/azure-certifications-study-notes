@@ -202,6 +202,13 @@
 - Docker containers
 - Azure Kubernetes service
 - Azure Content Delivery Network
+- Azure Advisor
+- Azure Application Insights
+- Azure DevOps
+- machine learning
+- cognitive services
+- bot services
+- IoT Hub
 
 ### security, privacy, compliance and trust
 
