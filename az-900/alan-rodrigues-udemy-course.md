@@ -219,6 +219,12 @@
     - Azure Kubernetes
         - you can create a Kubernetes resource in Azure through which you can create and manage containers
 - Azure Content Delivery Network
+    - point of presence: a place where you store copies of your data on "edge servers" on a different region that where your resource is deployed
+    - your main resource might be in one region, but you can create a content delivery network profile to add resources to edge servers
+    - you can have multiple points of presence
+    - origin: your original resource at its original location
+    - if the client doesn't find the service/data at the point of presence, it will then redirect to the origin
+    - edge servers cache responses
 - Azure Advisor
 - Azure Application Insights
 - Azure DevOps
