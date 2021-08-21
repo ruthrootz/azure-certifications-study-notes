@@ -190,6 +190,14 @@
     - Azure Logic Apps
 
 ### more Azure core services - part 2
+- monitoring
+    - you can pick your scope, the resources you want to monitor
+    - you can create alter trigger rules
+    - action group
+        - creates a resource called an action group
+        - you define actions to perform based on alerts
+- log analytics
+    - 
 
 ### security, privacy, compliance and trust
 
