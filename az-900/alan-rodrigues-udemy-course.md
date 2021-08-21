@@ -226,6 +226,8 @@
     - if the client doesn't find the service/data at the point of presence, it will then redirect to the origin
     - edge servers cache responses
 - Azure Advisor
+    - access from Azure Portal
+    - gives you advice on minimizing cost, increasing security, reliability and performance
 - Azure Application Insights
 - Azure DevOps
 - machine learning
