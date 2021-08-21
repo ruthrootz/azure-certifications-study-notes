@@ -197,7 +197,11 @@
         - creates a resource called an action group
         - you define actions to perform based on alerts
 - log analytics
-    - 
+    - creating some resources automatically creates a log analytics resource
+    - you can direct logs from specific resources to a log analytics workspace/resource
+- Docker containers
+- Azure Kubernetes service
+- Azure Content Delivery Network
 
 ### security, privacy, compliance and trust
 
