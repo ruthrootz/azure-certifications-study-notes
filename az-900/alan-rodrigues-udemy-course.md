@@ -262,7 +262,10 @@
         - search
     - use ready-made APIs to access these services
 - bot services
+    - used for web chats
+    - based on Azure AI services
 - IoT Hub
+    - 
 
 ### security, privacy, compliance and trust
 
