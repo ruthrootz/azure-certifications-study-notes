@@ -254,6 +254,13 @@
     - you can add datasets, select algorithms for training and score your model
     - then you create a compute cluster to run the machine learning pipeline
 - cognitive services
+    - set of prebuilt AI services
+        - computer vision (image analyzation, facial emotion recognition)
+        - language
+        - speech
+        - decision
+        - search
+    - use ready-made APIs to access these services
 - bot services
 - IoT Hub
 
