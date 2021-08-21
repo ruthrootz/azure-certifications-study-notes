@@ -265,7 +265,9 @@
     - used for web chats
     - based on Azure AI services
 - IoT Hub
-    - 
+    - managed services for messages to and from IoT devices
+    - secure communication if necessary
+    - use Azure Stream Analytics to put data in a DB
 
 ### security, privacy, compliance and trust
 
