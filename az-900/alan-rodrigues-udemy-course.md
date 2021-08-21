@@ -238,6 +238,11 @@
         - page views
         - diagnostic trace logs
 - Azure DevOps
+    - create task boards
+    - create pipelines for CI/CD
+    - create test plans
+    - create repos
+    - create artifacts to store packages
 - machine learning
 - cognitive services
 - bot services
