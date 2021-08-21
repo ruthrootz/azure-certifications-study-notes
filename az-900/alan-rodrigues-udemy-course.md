@@ -249,6 +249,10 @@
     - you can set limits on the number of machines that can be created
     - you can easily track costs
 - machine learning
+    - in the machine learning resource, in the designer, you can use prebuilt models or create your own
+    - you can then edit/create the model on the canvas
+    - you can add datasets, select algorithms for training and score your model
+    - then you create a compute cluster to run the machine learning pipeline
 - cognitive services
 - bot services
 - IoT Hub
