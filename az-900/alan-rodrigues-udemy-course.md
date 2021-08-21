@@ -204,7 +204,20 @@
     - containers do the same thing, isolating apps and their dependencies
     - containers are isolated instances that can run side-by-side on the same VM or machine
     - containers include an OS, libraries/dependencies and the app itself
+    - Docker engine
+        - is a container toolset
+        - it monitors and runs the containers on the VM
 - Azure Kubernetes service
+    - Kubernetes
+        - is container orchestration software
+        - it lets you manage all your containers/nodes across all your VMs, as well as the VMs themselves
+        - one machine running Kubernetes will be the "master" of your "Kubernetes cluster"
+            - the cluster is your whole set of containers being managed by the master
+        - Kubernetes can perform load balancing
+        - it can provide DNS names to your containers
+        - it can restart, create, kill containers
+    - Azure Kubernetes
+        - 
 - Azure Content Delivery Network
 - Azure Advisor
 - Azure Application Insights
