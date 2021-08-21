@@ -243,6 +243,11 @@
     - create test plans
     - create repos
     - create artifacts to store packages
+- DevTest Labs
+    - devs can create resources for testing/demoing based on predefined Azure Resource Manager templates
+    - you can schedule auto-shutdown or autostart for your machines
+    - you can set limits on the number of machines that can be created
+    - you can easily track costs
 - machine learning
 - cognitive services
 - bot services
