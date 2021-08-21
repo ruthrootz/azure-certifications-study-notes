@@ -199,7 +199,11 @@
 - log analytics
     - creating some resources automatically creates a log analytics resource
     - you can direct logs from specific resources to a log analytics workspace/resource
-- Docker containers
+- Docker and containers
+    - VMs are used to isolate the running of different apps
+    - containers do the same thing, isolating apps and their dependencies
+    - containers are isolated instances that can run side-by-side on the same VM or machine
+    - containers include an OS, libraries/dependencies and the app itself
 - Azure Kubernetes service
 - Azure Content Delivery Network
 - Azure Advisor
