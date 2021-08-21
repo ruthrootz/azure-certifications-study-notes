@@ -229,6 +229,14 @@
     - access from Azure Portal
     - gives you advice on minimizing cost, increasing security, reliability and performance
 - Azure Application Insights
+    - helps to diagnose issues and detect anomalies
+    - understand how users use your app
+    - what gets monitored
+        - response times
+        - failure rates
+        - exceptions
+        - page views
+        - diagnostic trace logs
 - Azure DevOps
 - machine learning
 - cognitive services
