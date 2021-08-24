@@ -270,10 +270,11 @@
     - use Azure Stream Analytics to put data in a DB
 
 ### security, privacy, compliance and trust
-- Azure Active Directoy
+- Azure Active Directory
     - identity manager
     - use role-based access control to assign permissions
     - create users, groups, resource access, etc.
     - works at the subscription level
+    - there are a bunch of built-in roles in Azure
 
 ### Azure pricing and support
