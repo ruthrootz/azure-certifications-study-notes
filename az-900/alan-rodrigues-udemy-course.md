@@ -276,5 +276,9 @@
     - create users, groups, resource access, etc.
     - works at the subscription level
     - there are a bunch of built-in roles in Azure
+- Azure policies
+    - initiative is linked to subscription
+    - initiative is a group of policies you want to comply with
+    - Policy dashboard will show if you're compliant or not
 
 ### Azure pricing and support
