@@ -278,7 +278,7 @@
     - there are a bunch of built-in roles in Azure
 - Azure policies
     - initiative is linked to subscription
-    - initiative is a group of policies you want to comply with
-    - Policy dashboard will show if you're compliant or not
+    - initiative is a group of policies you want to apply
+    - you choose whether to apply policies to the subscription or the resource level
 
 ### Azure pricing and support
