@@ -291,6 +291,10 @@
     - gives overview of security of your resources
     - gives you recommendations for increasing security
 - Azure Sentinel
+    - detects suspicious activities and threats
+    - helps with quickly responding to threats
+    - collects data from your Azure resources and external sources
+    - Sentinel, unlike Security Center, is active and can perform automated responses to threats
 - Azure Blueprints
 - Azure DDoS protection
 - Azure Firewall
