@@ -288,6 +288,8 @@
     - you can assign blanket permissions to management groups
     - e.g., one management group per department
 - Azure Security Center
+    - gives overview of security of your resources
+    - gives you recommendations for increasing security
 - Azure Sentinel
 - Azure Blueprints
 - Azure DDoS protection
