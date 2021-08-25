@@ -304,6 +304,9 @@
     - will actively make sure these rules are followed
     - blueprints apply to management groups or subscriptions and make sure each subscription has the required ARM templates, policies, resource groups and access control
 - Azure DDoS protection
+    - every resource is protected by basic DDoS protection
+    - standard DDoS protection is much more robust and even will give you Azure credits for costs incurred from an attack
 - Azure Firewall
+    - 
 
 ### Azure pricing and support
