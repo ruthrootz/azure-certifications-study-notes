@@ -345,3 +345,5 @@
     - resource tags applied at the resource group level doesn't apply those tags to the resources in the group
     - at the subscription level, you can see the cost broken down by tags
 - reserved and spot instances
+    - reserved pricing: commit to a one- or three-year plan to save on costs
+    - spot virtual machines: machines are available when there's spare capacity on the machine that it's hosted on; good for background processes that can handle interruptions
