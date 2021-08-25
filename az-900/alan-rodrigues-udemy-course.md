@@ -327,3 +327,7 @@
     - Azure helps customers move their services/apps to the cloud
     - the Cloud Adaption Framework is Azure's step-by-step guide for their customers
 - each resource and service has an SLA
+    - you get service credit if the downtime is more than the SLA claims
+- pricing calculator
+    - the calculator approximates pricing for the services and resources you want to use
+- 
