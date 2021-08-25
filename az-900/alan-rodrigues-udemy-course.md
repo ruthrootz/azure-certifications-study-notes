@@ -339,4 +339,9 @@
     - you can choose to be notified when certain percentage of the budget is reached
     - budgets can be applied at the subscription level
 - resource tags
+    - tags are name-value pairs that can be applied to resources
+    - it's a way to group resources in addition to resource groups
+    - e.g., you can tag by department
+    - resource tags applied at the resource group level doesn't apply those tags to the resources in the group
+    - at the subscription level, you can see the cost broken down by tags
 - reserved and spot instances
