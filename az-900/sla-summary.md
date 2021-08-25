@@ -1,1 +1,37 @@
-
+- API management
+    - We guarantee that API Management Service instances running in the Consumption Tier, Basic Tier, Standard Tier, and Premium Tier deployments scaled within a single region will respond to requests to perform operations at least 99.95% of the time.
+    - We guarantee that API Management Service instances running in the Premium Tier with deployments scaled across two or more regions will respond to requests to perform operations at least 99.99% of the time.
+- app service: 99.95%
+- automation: 99.9%
+- active directory: 99.99%
+- Azure backup: 99.9%
+- bot services: 99.9%
+- cognitive search: 99.9%
+- cognitive services: 99.9%
+- Cosmos DB: 99.9%, but if you run endpoints on multiple regions you get 99.999%
+- DB for MySQL, MariaDB, PostgreSQL: 99.99%
+- DDoS protection: 99.99%
+- Azure Defender: 99.9%
+- DevOps: 99.9%
+- DNS: 100%
+- ExpressRoute: 99.95%
+- firewall: 99.95%
+- Azure Functions: 99.95%
+- Logic Apps: 99.9%
+- IoT Central, IoT Hub: 99.9%
+- Azure Maps: 99.9%
+- SQL DB
+    - Azure SQL Database Business Critical or Premium tiers configured as Zone Redundant Deployments have an availability guarantee of at least 99.995%.
+    - Azure SQL Database Business Critical or Premium tiers not configured for Zone Redundant Deployments, General Purpose, Standard, or Basic tiers, or Hyperscale tier with two or more replicas have an availability guarantee of at least 99.99%.
+    - Azure SQL Database Hyperscale tier with one replica has an availability guarantee of at least 99.95% and 99.9% for zero replicas.
+- CDN: 99.9%
+- Key Vault: 99.99%
+- load balancer: 99.99%
+- storage accounts
+    - We guarantee that at least 99.99% (99.9% for Cool Access Tier) of the time, we will successfully process requests to read data from Read Access-Geo Redundant Storage (RA-GRS) Accounts, provided that failed attempts to read data from the primary region are retried on the secondary region.
+    - We guarantee that at least 99.9% (99% for Cool Access Tier) of the time, we will successfully process requests to read data from Locally Redundant Storage (LRS), Zone Redundant Storage (ZRS), and Geo Redundant Storage (GRS) Accounts.
+    - We guarantee that at least 99.9% (99% for Cool Access Tier) of the time, we will successfully process requests to write data to Locally Redundant Storage (LRS), Zone Redundant Storage (ZRS), and Geo Redundant Storage (GRS) Accounts and Read Access-Geo Redundant Storage (RA-GRS) Accounts.
+- VPN Gateway
+    - We guarantee 99.9% availability for each Basic Gateway for VPN or Basic Gateway for ExpressRoute.
+    - We guarantee 99.95% availability for each Standard, High Performance, VpnGw1, VpnGw2, VpnGw3 Gateway for VPN.
+    - We guarantee 99.95% availability for each Standard, High Performance, Ultra Performance Gateway for ExpressRoute.
