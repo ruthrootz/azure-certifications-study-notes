@@ -276,6 +276,7 @@
     - create users, groups, resource access, etc.
     - works at the subscription level
     - there are a bunch of built-in roles in Azure
+    - you can use Azure Directory Connect to sync your on-prem AD to your Azure AD
 - Azure policies
     - initiative is linked to subscription
     - initiative is a group of policies you want to apply
