@@ -309,5 +309,10 @@
 - Azure Firewall
     - you can filter IPs and domain names
     - it recognizes malicious IPs
+- regulations
+    - GDPR: protects EU citizen's data
+    - ISO: independent internet standards
+    - NIST: specifically looks at U.S.'s innovation
+    - you can view Microsoft's audit reports from the Service Trust Portal
 
 ### Azure pricing and support
