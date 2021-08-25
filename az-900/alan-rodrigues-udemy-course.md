@@ -296,6 +296,13 @@
     - collects data from your Azure resources and external sources
     - Sentinel, unlike Security Center, is active and can perform automated responses to threats
 - Azure Blueprints
+    - defines what's allowed across...
+        - ARM templates
+        - Azure policies
+        - resource groups
+        - role-based access control
+    - will actively make sure these rules are followed
+    - blueprints apply to subscriptions and make sure each subscription has the required ARM templates, policies, resource groups and access control
 - Azure DDoS protection
 - Azure Firewall
 
