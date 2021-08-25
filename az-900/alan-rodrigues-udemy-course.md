@@ -326,4 +326,4 @@
 - cloud adoption framework
     - Azure helps customers move their services/apps to the cloud
     - the Cloud Adaption Framework is Azure's step-by-step guide for their customers
-- 
+- each resource and service has an SLA
