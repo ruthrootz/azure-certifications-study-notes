@@ -307,6 +307,7 @@
     - every resource is protected by basic DDoS protection
     - standard DDoS protection is much more robust and even will give you Azure credits for costs incurred from an attack
 - Azure Firewall
-    - 
+    - you can filter IPs and domain names
+    - it recognizes malicious IPs
 
 ### Azure pricing and support
