@@ -330,4 +330,5 @@
     - you get service credit if the downtime is more than the SLA claims
 - pricing calculator
     - the calculator approximates pricing for the services and resources you want to use
+    - Azure Hybrid Benefit: you already have some Microsoft services (Microsoft 365, etc.), so you get a discount on some Azure services
 - 
