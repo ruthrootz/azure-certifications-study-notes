@@ -281,7 +281,9 @@
     - initiative is a group of policies you want to apply
     - you choose whether to apply policies to the subscription or the resource level
     - Policy dashboard shows whether you're compliant or not
-- mangement groups
+    - Policies don't delete existing resources that aren't compliant but they will prevent new non-compliant resources from being created
+- management groups
+    - 
 - Azure Security Center
 - Azure Sentinel
 - Azure Blueprints
