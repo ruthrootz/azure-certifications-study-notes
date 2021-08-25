@@ -331,4 +331,7 @@
 - pricing calculator
     - the calculator approximates pricing for the services and resources you want to use
     - Azure Hybrid Benefit: you already have some Microsoft services (Microsoft 365, etc.), so you get a discount on some Azure services
-- 
+- total cost of ownership
+    - you tell Azure how much you spend on on-prem
+    - Azure tells you how much you'll spend for migrating some/all to Azure
+    - shows you how much you'll save by using Azure
