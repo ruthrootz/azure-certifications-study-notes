@@ -302,7 +302,7 @@
         - resource groups
         - role-based access control
     - will actively make sure these rules are followed
-    - blueprints apply to subscriptions and make sure each subscription has the required ARM templates, policies, resource groups and access control
+    - blueprints apply to management groups or subscriptions and make sure each subscription has the required ARM templates, policies, resource groups and access control
 - Azure DDoS protection
 - Azure Firewall
 
