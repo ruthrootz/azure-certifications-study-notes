@@ -283,7 +283,10 @@
     - Policy dashboard shows whether you're compliant or not
     - Policies don't delete existing resources that aren't compliant but they will prevent new non-compliant resources from being created
 - management groups
-    - 
+    - a collection of subscriptions
+    - there is a default Tenant Root Group that all other management groups are children of
+    - you can assign blanket permissions to management groups
+    - e.g., one management group per department
 - Azure Security Center
 - Azure Sentinel
 - Azure Blueprints
