@@ -322,4 +322,8 @@
     - developer: $29/month
     - standard: $100/month
     - professional direct: $1,000/month
-- response time and 24/7 access to tech support varies between plans
+    - response time and 24/7 access to tech support varies between plans
+- cloud adoption framework
+    - Azure helps customers move their services/apps to the cloud
+    - the Cloud Adaption Framework is Azure's step-by-step guide for their customers
+- 
