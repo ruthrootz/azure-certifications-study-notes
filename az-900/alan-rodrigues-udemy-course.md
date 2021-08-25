@@ -336,5 +336,7 @@
     - Azure tells you how much you'll spend for migrating some/all to Azure
     - shows you how much you'll save by using Azure
 - budgets on Azure
+    - you can choose to be notified when certain percentage of the budget is reached
+    - budgets can be applied at the subscription level
 - resource tags
 - reserved and spot instances
