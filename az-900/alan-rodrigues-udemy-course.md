@@ -281,5 +281,11 @@
     - initiative is a group of policies you want to apply
     - you choose whether to apply policies to the subscription or the resource level
     - Policy dashboard shows whether you're compliant or not
+- mangement groups
+- Azure Security Center
+- Azure Sentinel
+- Azure Blueprints
+- Azure DDoS protection
+- Azure Firewall
 
 ### Azure pricing and support
