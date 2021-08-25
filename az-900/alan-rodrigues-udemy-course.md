@@ -316,3 +316,10 @@
     - you can view Microsoft's audit reports from the Service Trust Portal
 
 ### Azure pricing and support
+- there's no SLA on Azure's preview features
+- support plans
+    - basic: free
+    - developer: $29/month
+    - standard: $100/month
+    - professional direct: $1,000/month
+- response time and 24/7 access to tech support varies between plans
