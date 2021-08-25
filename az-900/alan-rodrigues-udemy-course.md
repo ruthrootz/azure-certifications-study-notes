@@ -335,3 +335,6 @@
     - you tell Azure how much you spend on on-prem
     - Azure tells you how much you'll spend for migrating some/all to Azure
     - shows you how much you'll save by using Azure
+- budgets on Azure
+- resource tags
+- reserved and spot instances
