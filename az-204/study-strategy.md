@@ -2,3 +2,4 @@
 - then just take tons of practice tests and read the explanations
 - learn the order commands should be run to create specific things
 - types of questions: multiple choice, decide whether solution satisfies requirements, case studies
+- focus on PowerShell examples because JS isn't available in the test
