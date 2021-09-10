@@ -1,6 +1,12 @@
 # [AZ-204 Developing Solutions for Azure Certification 2021](https://www.udemy.com/course/exam-microsoft-azure-dev/)
 
 ### Section 3: Develop Azure compute solutions - Virtual Machines
+- when VM is deployed, these are also created
+    - virtual network
+    - disk storage
+    - network interface, which acts as a virtual NIC
+    - public and private IP addresses
+    - network security group, acts as a firewall for the VM
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
