@@ -12,7 +12,7 @@
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
-### Section 5: Develop Azure compute solutions - Docker , Azure Container Instances, Kubernetes
+### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
 ### Section 6: Develop for Azure Storage
 
