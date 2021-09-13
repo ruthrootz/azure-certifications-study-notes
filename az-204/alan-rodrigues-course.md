@@ -22,6 +22,21 @@
     - create a publish profile, choosing the VM you created
     - publish the app!
 - hosting a .NET Core web app on a Linux VM
+    - you can use PUTTY to log into the VM
+    - Kestrel web server
+        - cross-platform server for .NET Core
+        - it's what runs .NET Core apps on Linux machines/VMs (instead of IIS)
+        - when running a Linux .NET Core project locally, you can run it either on IIS Express or Kestrel
+    - publish the project to a folder
+    - copy the folder onto the VM (using WinSCP)
+    - install the Core SDK on the VM
+    - `wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb`
+    `sudo dpkg -i packages-microsoft-prod.deb`
+    `sudo apt-get update; \`
+        `sudo apt-get install -y apt-transport-https && \`
+        `sudo apt-get update && \`
+        `sudo apt-get install -y dotnet-sdk-3.1`
+    - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
