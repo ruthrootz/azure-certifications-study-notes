@@ -17,5 +17,11 @@
 </details>
 
 ## CLI commands
-### PowerShell
-### Bash
+<details>
+    <summary>PowerShell</summary>
+    <p>.....</p>
+</details>
+<details>
+    <summary>Bash</summary>
+    <p>.....</p>
+</details>
