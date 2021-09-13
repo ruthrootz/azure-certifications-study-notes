@@ -8,7 +8,11 @@
     - public and private IP addresses
     - network security group, acts as a firewall for the VM
 - hosting a .NET Core web app on a Windows VM
-    - 
+    - steps
+        - create VM
+        - add port 80 inbound network security group rule
+        - log into VM and set it up as an IIS web server
+        - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
