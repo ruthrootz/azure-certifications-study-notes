@@ -7,6 +7,8 @@
     - network interface, which acts as a virtual NIC
     - public and private IP addresses
     - network security group, acts as a firewall for the VM
+- hosting a .NET Core web app on a Windows VM
+    - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
