@@ -8,11 +8,7 @@
     <p>- public IP address</p>
 </details>
 <details>
-    <summary>Windows VM</summary>
-    <p>.....</p>
-</details>
-<details>
-    <summary>Linux VM</summary>
+    <summary>host .NET Core web app on Windows VM steps</summary>
     <p>.....</p>
 </details>
 
