@@ -9,13 +9,18 @@
     - network security group, acts as a firewall for the VM
 - hosting a .NET Core web app on a Windows VM
     - create VM
-    - add a port 80 inbound network security group rule
+    - add a port 80 inbound NSG rule
+    - go to the NI resource, IP Configurations, and disassociate the public IP from the NI
+    - assign a DNS name to the IP address resource and set the IP address to static
+    - go back to the NI and reassociate the public IP address
     - log into VM and set it up as an IIS web server
     - install Management Service and add an IIS Manager rule that enables connections on port 8172
     - add a port 8172 inbound NSG rule
-    - install 
-    - create a .NET Core project, right click on the project and click publish
-    - 
+    - install .NET Core X.X Hosting Bundle, where X.X is the .NET Core version of your web app
+    - install Web Deploy (which allows an IIS server to deploy apps, I guess?)
+    - create a .NET Core project, right-click on the project and click publish
+    - create a publish profile, choosing the VM you created
+    - publish the app!
 - hosting a .NET Core web app on a Linux VM
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
