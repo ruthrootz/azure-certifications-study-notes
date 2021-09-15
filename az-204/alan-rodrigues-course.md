@@ -55,7 +55,18 @@
         - create VM: `az vm create --resource-group [RG name] --name [VM name] --image [image name] --admin-username [user name]`
             - when this command is run, you'll be prompted for a password
     - PowerShell commands
-        - 
+        - create resource group: `New-AzResourceGroup -Name new-vm-grp -Location EastUS`
+        - create VM: `New-AzVm -ResourceGroupName "new-vm-grp" -Name "demovm1" -Location "East US" -VirtualNetworkName "demo-network" -SubnetName "subnetA" -SecurityGroupName "myNSG" -PublicIpAddressName "new-ip" -OpenPorts 80,3389`
+- Azure backup service for VMs
+    - data is backed up to Recovery Services vault, which is a resource in the same region as the VM
+    - only backs up changes since the last backup
+    - backup policy sets frequency and how long you want the data backed up for
+    - recovery points are created with every backup
+    - you can choose to recover certain files, the entire VM or a disk
+    - types of snapshots
+        - application consistent: backs everything up, including pending I/O operations
+        - file-system consistent: backups up all the files at the same time
+        - crash consistent: happens if the VM shuts down during the backup
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
