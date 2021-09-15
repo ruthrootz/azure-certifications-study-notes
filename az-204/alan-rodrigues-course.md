@@ -50,7 +50,9 @@
     - you can set a dependsOn property for a resource in the JSON
 - Azure CLI
     - you need a storage account to use Cloud Shell
-    - 
+    - CLI commands
+        - az group create --name [RG name] --location [location]
+        - az vm create --resource-group [RG name] --name [VM name] --image [image name] --admin-username [user name]
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
