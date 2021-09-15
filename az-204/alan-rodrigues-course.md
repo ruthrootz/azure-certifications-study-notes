@@ -37,6 +37,14 @@
         `sudo apt-get install -y apt-transport-https && \`
         `sudo apt-get update && \`
         `sudo apt-get install -y dotnet-sdk-3.1`
+- creating a custom VM image
+    - start by creating a VM and installing on it all the software/code you want your VMs to have
+    - use Sysprep to remove user data and generalize the VM
+    - stop the VM
+    - create an image using the capture button
+    - creating the image is a destructive process
+- Azure Resource Manager templates
+    - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
