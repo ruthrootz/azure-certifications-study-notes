@@ -48,6 +48,9 @@
     - can be used to create VMs, storage accounts, SQL DBs, etc.
     - there are ready-made templates on the Marketplace
     - you can set a dependsOn property for a resource in the JSON
+- Azure CLI
+    - you need a storage account to use Cloud Shell
+    - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
