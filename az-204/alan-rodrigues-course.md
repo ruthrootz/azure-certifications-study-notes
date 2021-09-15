@@ -69,6 +69,12 @@
         - crash consistent: happens if the VM shuts down during the backup
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
+- Azure Web App Service
+    - supported languages: .NET, .NET Core, Java, Python, Node.js, Ruby
+    - it's a PaaS, you don't manage the VM/DBs your app runs on
+    - it has scaling
+    - high security
+    - DevOps capabilities like continuous deployment
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
