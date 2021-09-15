@@ -51,8 +51,11 @@
 - Azure CLI
     - you need a storage account to use Cloud Shell
     - CLI commands
-        - az group create --name [RG name] --location [location]
-        - az vm create --resource-group [RG name] --name [VM name] --image [image name] --admin-username [user name]
+        - create resource group: `az group create --name [RG name] --location [location]`
+        - create VM: `az vm create --resource-group [RG name] --name [VM name] --image [image name] --admin-username [user name]`
+            - when this command is run, you'll be prompted for a password
+    - PowerShell commands
+        - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
