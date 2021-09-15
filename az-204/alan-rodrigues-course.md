@@ -44,7 +44,10 @@
     - create an image using the capture button
     - creating the image is a destructive process
 - Azure Resource Manager templates
-    - 
+    - it's a JSON script
+    - can be used to create VMs, storage accounts, SQL DBs, etc.
+    - there are ready-made templates on the Marketplace
+    - you can set a dependsOn property for a resource in the JSON
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
