@@ -27,6 +27,7 @@
         - cross-platform server for .NET Core
         - it's what runs .NET Core apps on Linux machines/VMs (instead of IIS)
         - when running a Linux .NET Core project locally, you can run it either on IIS Express or Kestrel
+    - you can also use NGINX
     - publish the project to a folder
     - copy the folder onto the VM (using WinSCP)
     - install the Core SDK on the VM
@@ -36,7 +37,6 @@
         `sudo apt-get install -y apt-transport-https && \`
         `sudo apt-get update && \`
         `sudo apt-get install -y dotnet-sdk-3.1`
-    - 
 
 ### Section 4: Develop Azure compute solutions - Azure Web Apps and Azure Functions
 
