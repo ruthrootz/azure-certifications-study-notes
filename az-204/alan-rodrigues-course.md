@@ -75,6 +75,13 @@
     - it has scaling
     - high security
     - DevOps capabilities like continuous deployment
+- App Service Plan
+    - you app lives on an App Service Plan
+    - free: 10 apps, 1GB disk space, 60 CPU minutes/day
+    - shared: 100 apps, 1GB, 240 CPU minutes/day
+    - basic: unlimited apps, 10GB, unlimited CPU minutes/day, 3 maximum instances
+        - maximum instances: the number of VMs you can have on the plan to run your apps, the requests get balanced between the instances
+    - 
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
