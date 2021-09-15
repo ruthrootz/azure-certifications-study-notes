@@ -76,7 +76,7 @@
     - high security
     - DevOps capabilities like continuous deployment
 - App Service Plan
-    - you app lives on an App Service Plan
+    - your app lives on an App Service Plan (which is a resource)
     - free: 10 apps, 1GB disk space, 60 CPU minutes/day
     - shared: 100 apps, 1GB, 240 CPU minutes/day
     - basic: unlimited apps, 10GB, unlimited CPU minutes/day, 3 maximum instances
