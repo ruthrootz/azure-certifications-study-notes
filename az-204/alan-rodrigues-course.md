@@ -82,6 +82,7 @@
     - basic: unlimited apps, 10GB, unlimited CPU minutes/day, 3 maximum instances
         - maximum instances: the number of VMs you can have on the plan to run your apps, the requests get balanced between the instances
     - all web apps on a plan have to be in the same region as the plan
+    - all web apps on a plan have to have the same underlying OS
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
