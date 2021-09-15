@@ -60,7 +60,7 @@
 - Azure backup service for VMs
     - data is backed up to Recovery Services vault, which is a resource in the same region as the VM
     - only backs up changes since the last backup
-    - backup policy sets frequency and how long you want the data backed up for
+    - backup policy sets frequency, how long you want the data backed up for and which recovery points you always want to keep (let's say, the recovery point exactly a year ago)
     - recovery points are created with every backup
     - you can choose to recover certain files, the entire VM or a disk
     - types of snapshots
