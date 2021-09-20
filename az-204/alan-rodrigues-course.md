@@ -170,9 +170,11 @@
         - blob events
         - queue storage events
         - event hub events
-    - you can add the function to an app service plan
-    - or you can use a consumption-based plan
-    - premium plan: pre-warmed instances and autoscaling compute
+    - plans
+        - you can add the function to an app service plan
+        - or you can use a consumption-based plan
+        - premium plan: pre-warmed instances and autoscaling compute
+    - you can enable Application Insights on the function app
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
