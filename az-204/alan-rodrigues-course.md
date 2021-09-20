@@ -118,8 +118,17 @@
     - deploy multiple versions of the same app to different environments
     - each environment is a "slot" (e.g. production, staging, etc.)
     - each slot has its own DNS name (its own URL)
-    - you can swap versions onto different slots
-    - only availible on standard app service plans or higher
+    - you can swap slots
+    - only available on standard app service plans or higher
+    - you use a different publish profile on your project for each environment/slot
+    - PowerShell commands
+        - `$location="Central US"`
+        - `$resourcegrp="newgrp"`
+        - `$webappname="demoapp4040"`
+        - `New-AzResourceGroup -Name $resourcegrp -Location $location`
+        - `New-AzAppServicePlan -Name $webappname -Location $location -ResourceGroupName $resourcegrp -Tier Standard`
+        - `New-AzWebApp -Name $webappname -Location $location -ResourceGroupName $resourcegrp -AppServicePlan $webappname`
+        - `New-AzWebAppSlot -Name $webappname -ResourceGroupName $resourcegrp -Slot "staging"`
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
