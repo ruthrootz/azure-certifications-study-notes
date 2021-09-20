@@ -147,6 +147,7 @@
         - etc.
     - cool-down period: the time it takes for the new VM to be added/removed once an autoscaling rule threshold has been reached
 - connection strings
+    - needed to connect an Azure web app to an Azure SQL DB
     - 
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
