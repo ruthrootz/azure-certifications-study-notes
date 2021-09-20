@@ -160,6 +160,7 @@
     - you create key-value pairs in this resource
     - you need the Azure App Configuration NuGet package in your app
     - you add the connection string for the key you want to access (copied from Azure) into your code
+    - you can also add feature flags for your app in the App Configuration resource
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
