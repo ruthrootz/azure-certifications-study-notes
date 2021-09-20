@@ -133,19 +133,21 @@
     - the VM that your app is running on 
     - on a basic app service plan, you can have up to 3 VMs for scaling, but you have to manually select to add/remove a machine
     - on standard tier or higher, VM creation/deallocation (scale out, scale in) is triggered automatically based on rules you create
-        - called "custom autoscaling"
-        - you create rules on the app service plan resource
-        - you can base your rules not only on the service plan metrics but also metrics that come from other types of resources
-            - storage queue
-            - service buss queue
-            - etc.
-        - metrics you can create rules based on
-            - CPU %
-            - data in/out
-            - HTTP queue length
-            - memory %
-            - etc.
-        - cool-down period: the time it takes for the new VM to be added/removed once an autoscaling rule threshold has been reached
+    - called "custom autoscaling"
+    - you create rules on the app service plan resource
+    - you can base your rules not only on the service plan metrics but also metrics that come from other types of resources
+        - storage queue
+        - service buss queue
+        - etc.
+    - metrics you can create rules based on
+        - CPU %
+        - data in/out
+        - HTTP queue length
+        - memory %
+        - etc.
+    - cool-down period: the time it takes for the new VM to be added/removed once an autoscaling rule threshold has been reached
+- connection strings
+    - 
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
