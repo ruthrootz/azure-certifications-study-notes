@@ -101,6 +101,7 @@
     - `az appservice plan create --name $plan --resource-group [group name] --sku B1`
     - `az webapp create --name $appname --resource-group [group name] --plan $plan`
     - `az webapp deployment source config --name $appname --resource-group [group name] --repo-url $repourl --branch master --manual-integration`
+    - `manual-integration`: you have to trigger a deployment, no continuous deployment on code change
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
