@@ -160,7 +160,8 @@
     - you create key-value pairs in this resource
     - you need the Azure App Configuration NuGet package in your app
     - you add the connection string for the key you want to access (copied from Azure) into your code
-    - you can also add feature flags for your app in the App Configuration resource
+    - you can also add feature flags in the App Configuration resource
+        - methods/views can have a FeatureGate attribute on it with a specific feature flag value (that you define in an enum) assigned to it
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
