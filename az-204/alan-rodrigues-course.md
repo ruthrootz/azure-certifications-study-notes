@@ -107,6 +107,9 @@
     - go to the custom domains page on the web app resource and add custom domain
     - set the custom domain to the name you bought and save the custom domain 
     - on the domain provider site you have to have a CNAME record that links your original web app URL (that Azure assigns) to your new domain
+    - SSL custom domain
+        - go to TLS/SSL settings and create an app service managed certificate
+        - add SSL binding (new certificate to custom domain)
 
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
