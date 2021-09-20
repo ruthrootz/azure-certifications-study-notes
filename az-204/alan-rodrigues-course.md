@@ -93,7 +93,7 @@
     - you can access the stream through an FTP URL of from the log stream page on your web app resource
 - you can enable continuous deployment with GitHub Actions by linking your web app to a GitHub repo
     - if you link your web app to a GitHub repo, continuous deployment will be automatically implemented
-- Web App commands
+- Web App CLI commands
     - `$plan="plan-name"`
     - `$appname="app-name"`
     - `$repoulr="https://github.com/[username]/[repo name]"`
@@ -102,6 +102,12 @@
     - `az webapp create --name $appname --resource-group [group name] --plan $plan`
     - `az webapp deployment source config --name $appname --resource-group [group name] --repo-url $repourl --branch master --manual-integration`
     - `manual-integration`: you have to trigger a deployment, no continuous deployment on code change
+- custom domain
+    - buy a domain name
+    - go to the custom domains page on the web app resource and add custom domain
+    - set the custom domain to the name you bought and save the custom domain 
+    - on the domain provider site you have to have a CNAME record that links your original web app URL (that Azure assigns) to your new domain
+
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
