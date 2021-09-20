@@ -113,6 +113,12 @@
     - CORS: cross-origin resource sharing
         - browsers notice when a page is trying to request data from a different domain, and they block this from happening
         - from the CORS page on the web app resource (that gets requests) you can add domains that are allowed to make requests
+        - CLI command: `az webapp cors add -g [group name] -n [app name] --allowed-origins [domain that makes requests to this web app]`
+- deployment slots
+    - deploy multiple versions of the same app to different environments
+    - each environment is a "slot" (e.g. production, staging, etc.)
+    - each slot has its own DNS name (its own URL)
+    - you can swap versions onto different slots
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
