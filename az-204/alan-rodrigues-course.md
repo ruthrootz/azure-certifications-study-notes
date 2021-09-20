@@ -156,8 +156,10 @@
     - inject the service (along with MVC or whatever you're using)
     - create a controller to get the data and display it in a view component
 - App Configuration resource
+    - used to store connection strings on Azure so they're outside of an appsettings file and can be used by multiple web apps at once
     - you create key-value pairs in this resource
-    - then you link the resource to a 
+    - you need the Azure App Configuration NuGet package in your app
+    - you add the connection string for the key you want to access (copied from Azure) into your code
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
