@@ -163,7 +163,16 @@
     - you can also add feature flags in the App Configuration resource
         - methods/views can have a FeatureGate attribute on it with a specific feature flag value (that you define in an enum) assigned to it
 - Azure Functions
-    - 
+    - languages: C#, Java, JavaScript, Python, PowerShell
+    - ways to invoke a function
+        - HTTP request
+        - timer
+        - blob events
+        - queue storage events
+        - event hub events
+    - you can add the function to an app service plan
+    - or you can use a consumption-based plan
+    - premium plan: pre-warmed instances and autoscaling compute
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
