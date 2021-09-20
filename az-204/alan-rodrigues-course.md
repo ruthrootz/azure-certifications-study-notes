@@ -110,7 +110,9 @@
     - SSL custom domain
         - go to TLS/SSL settings and create an app service managed certificate
         - add SSL binding (new certificate to custom domain)
-
+    - CORS: cross-origin resource sharing
+        - browsers notice when a page is trying to request data from a different domain, and they block this from happening
+        - from the CORS page on the web app resource (that gets requests) you can add domains that are allowed to make requests
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
