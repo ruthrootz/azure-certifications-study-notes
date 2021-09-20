@@ -129,6 +129,10 @@
         - `New-AzAppServicePlan -Name $webappname -Location $location -ResourceGroupName $resourcegrp -Tier Standard`
         - `New-AzWebApp -Name $webappname -Location $location -ResourceGroupName $resourcegrp -AppServicePlan $webappname`
         - `New-AzWebAppSlot -Name $webappname -ResourceGroupName $resourcegrp -Slot "staging"`
+- autoscaling
+    - the VM that your app is running on 
+    - on a basic app service plan, you can have up to 3 VMs for scaling, but you have to manually select to add/remove a machine
+    - on standard tier or higher, VM creation/deallocation (scale out, scale in) is triggered automatically based on rules you set
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
