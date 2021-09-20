@@ -156,7 +156,8 @@
     - inject the service (along with MVC or whatever you're using)
     - create a controller to get the data and display it in a view component
 - App Configuration resource
-    - 
+    - you create key-value pairs in this resource
+    - then you link the resource to a 
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
