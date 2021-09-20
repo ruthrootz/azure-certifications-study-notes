@@ -151,7 +151,8 @@
     - in your API project, create a service that defines a SqlConnection, make a connection, runs SQL statements and then closes the connection
         - this is where you paste in the DB connection string, username, password, etc.
     - install the NuGet package System.Data.SqlClient (or whatever you package you want to use for whatever framework you're using)
-    - inject the service
+    - inject the service (along with MVC or whatever you're using)
+    - create a controller to get the data and display it in a view component
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
