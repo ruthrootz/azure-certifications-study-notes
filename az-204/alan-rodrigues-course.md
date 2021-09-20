@@ -92,6 +92,7 @@
     - logs are streamed in real time
     - you can access the stream through an FTP URL of from the log stream page on your web app resource
 - you can enable continuous deployment with GitHub Actions by linking your web app to a GitHub repo
+    - if you link your web app to a GitHub repo, continuous deployment will be automatically implemented
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
