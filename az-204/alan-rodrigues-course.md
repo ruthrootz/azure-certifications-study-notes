@@ -119,6 +119,7 @@
     - each environment is a "slot" (e.g. production, staging, etc.)
     - each slot has its own DNS name (its own URL)
     - you can swap versions onto different slots
+    - only availible on standard app service plans or higher
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
