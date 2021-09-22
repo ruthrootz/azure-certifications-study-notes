@@ -180,7 +180,7 @@
     - you can enable Application Insights on the function app
     - adding functions to the function app
         - you can pick a template based on a trigger
-        - the function is a C# script file (if the function app you created is in C#)
+        - the function is a C# script file (if the function app you created is in C# and you're editing in the Azure editor)
         - the function.json file has the script complied to JSON for Azure to deploy the function
         - you can test in Azure or with Postman
         - you can only test GETs though a regular browser
@@ -194,6 +194,10 @@
         - there is a durable function template
             - it has a template RunOrchestrator() function, activity function and starter function
             - you can define each function in the same file, but on Azure they show up as individual functions in the function app
+        - connecting to a SQL DB
+            - get the connection string from the Azure resource
+            - paste it into the function and make sure to set correct password
+            - install SqlClient NuGet package so connection can be made
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
