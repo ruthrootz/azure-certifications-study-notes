@@ -193,6 +193,7 @@
             - a starter function that invokes the orchestrator function
         - there is a durable function template
             - it has a template RunOrchestrator() function, activity function and starter function
+            - you can define each function in the same file, but on Azure they show up as individual functions in the function app
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
