@@ -183,7 +183,6 @@
         - the function is a C# script file (if the function app you created is in C#)
         - the function.json file is the config file for the function
         - you can test in Azure or with Postman
-        - the function app URL?
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
