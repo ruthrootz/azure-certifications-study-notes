@@ -166,6 +166,8 @@
     - languages: C#, Java, JavaScript, Python, PowerShell
     - ways to invoke a function
         - HTTP request
+            - GET
+            - POST
         - timer
         - blob events
         - queue storage events
@@ -179,7 +181,7 @@
         - you can pick a template based on a trigger
         - the function is a C# script file
         - the function.json file is the config file for the function
-        - you can test in Azure or with Postman ()
+        - you can test in Azure or with Postman
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
