@@ -172,6 +172,7 @@
         - blob events
         - queue storage events
         - event hub events
+    - when you create the function app you select the language the functions will be written in
     - plans
         - you can add the function to an app service plan
         - or you can use a consumption-based plan
@@ -179,9 +180,10 @@
     - you can enable Application Insights on the function app
     - adding functions to the function app
         - you can pick a template based on a trigger
-        - the function is a C# script file
+        - the function is a C# script file (if the function app you created is in C#)
         - the function.json file is the config file for the function
         - you can test in Azure or with Postman
+        - the function app URL?
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
