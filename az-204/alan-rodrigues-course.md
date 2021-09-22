@@ -181,9 +181,11 @@
     - adding functions to the function app
         - you can pick a template based on a trigger
         - the function is a C# script file (if the function app you created is in C#)
-        - the function.json file is the config file for the function
+        - the function.json file has the script complied to JSON for Azure to create/run the function
         - you can test in Azure or with Postman
         - you can only test GETs though a regular browser
+    - durable functions
+        - 
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
