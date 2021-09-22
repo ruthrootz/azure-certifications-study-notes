@@ -175,6 +175,11 @@
         - or you can use a consumption-based plan
         - premium plan: pre-warmed instances and autoscaling compute
     - you can enable Application Insights on the function app
+    - adding functions to the function app
+        - you can pick a template based on a trigger
+        - the function is a C# script file
+        - the function.json file is the config file for the function
+        - you can test in Azure or with Postman ()
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
