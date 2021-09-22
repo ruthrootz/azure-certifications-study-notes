@@ -186,7 +186,13 @@
         - you can only test GETs though a regular browser
         - if you develop the function in VS then publishing the function to Azure only pushes up the function.json file since that's the only file Azure needs to deploy the function
     - durable functions
-        - 
+        - Azure functions are stateless, so if you have a bunch of functions working together, you have to manually check each function's state and figure out when to run the next function
+        - in durable functions
+            - an orchestrator oversees all the functions and knows which ones are running/done/etc.
+            - activity functions perform the actual tasks
+            - a starter function that invokes the orchestrator function
+        - there is a durable function template
+            - it has a template RunOrchestrator() function, activity function and starter function
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
