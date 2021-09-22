@@ -198,6 +198,10 @@
             - get the connection string from the Azure resource
             - paste it into the function and make sure to set correct password
             - install SqlClient NuGet package so connection can be made
+            - if you are connecting via a variable defined as part of the function app resource
+                - `string _connection_string = Environment.GetEnvironmentVariable("SQLAZURECONNSTR_SQLConnectionString");`
+                - "SQLConnectionString" is the name of the variable, "SQLAZURECONNSTR" is what you prepend to make Azure fetch the variable
+                - in the app's Configuration page you can add the connection string with the name of the variable
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
 
