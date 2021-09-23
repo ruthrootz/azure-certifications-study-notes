@@ -204,6 +204,10 @@
                 - in the app's Configuration page you can add the connection string with the name of the variable
 
 ### Section 5: Develop Azure compute solutions - Docker, Azure Container Instances, Kubernetes
+- benefits of containers
+    - test app in isolation, no clash between dependencies when two instances are running on the same machine/VM
+    - each container has its own set of dependencies, independent of any other containers on the same machine
+    - portability, you can move containers between VMs easily, just deploy the container onto a different VM (assuming it has the same base OS)
 
 ### Section 6: Develop for Azure Storage
 
