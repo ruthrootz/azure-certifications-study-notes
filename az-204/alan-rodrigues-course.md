@@ -222,6 +222,7 @@
 - Docker + Windows Subsystem for Linux
     - installing Docker desktop on a Windows machine automatically installs Windows Subsystem for Linux
     - WSL creates a Linux environment on the machine, which Docker then runs on
+- Windows-based containers are way larger than Linux-based containers
 
 ### Section 6: Develop for Azure Storage
 
