@@ -210,6 +210,9 @@
     - portability, you can move containers between VMs easily, just deploy the container onto a different VM (assuming it has the same base OS)
     - containers are lightweight
 - image: the set of instructions, the template, for creating the container
+    - the image is made up of many layers
+    - the base layer is made up of OS-level configurations
+    - an image can only be run on the OS that the base layer is for
 - container: the runnable instance of an image on which your app can run
 - once you install the Docker runtime on your machine (Linux or Windows) you can deploy containers based on an image
 - Docker Hub is a website with tons of pre-made Docker images
