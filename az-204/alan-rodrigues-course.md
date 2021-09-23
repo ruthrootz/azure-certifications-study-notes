@@ -208,6 +208,9 @@
     - test app in isolation, no clash between dependencies when two instances are running on the same machine/VM
     - each container has its own set of dependencies, independent of any other containers on the same machine
     - portability, you can move containers between VMs easily, just deploy the container onto a different VM (assuming it has the same base OS)
+    - containers are lightweight
+- image: the set of instructions, the template, for creating the container
+- container: the runnable instance of an image on which your app can run
 
 ### Section 6: Develop for Azure Storage
 
