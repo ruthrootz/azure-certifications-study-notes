@@ -216,7 +216,7 @@
 - if you want to access a website being run in a Docker container, you have to specify a port mapping when you deploy the container
     - the container is isolated from the machine, including its network, that's why you have to tell Docker which port you want it to forward the site to so you can access it from the machine's browser
     - you can then create an inbound traffic rule for the VM so that you can access the app -> that the container is running -> on the VM -> through the browser on your physical machine
-- Windows Subsystem for Linux
+- Docker + Windows Subsystem for Linux
     - installing Docker desktop on a Windows machine automatically installs Windows Subsystem for Linux
     - WSL creates a Linux environment on the machine, which Docker then runs on
 
