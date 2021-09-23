@@ -212,7 +212,7 @@
 - image: the set of instructions, the template, for creating the container
 - container: the runnable instance of an image on which your app can run
 - once you install the Docker runtime on your machine (Linux or Windows) you can deploy containers based on an image
-- DockerHub is a website with tons of pre-made Docker images
+- Docker Hub is a website with tons of pre-made Docker images
 
 ### Section 6: Develop for Azure Storage
 
