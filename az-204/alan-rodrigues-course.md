@@ -211,6 +211,7 @@
     - containers are lightweight
 - image: the set of instructions, the template, for creating the container
 - container: the runnable instance of an image on which your app can run
+- once you install the Docker runtime on your machine (Linux or Windows) you can deploy containers based on an image
 
 ### Section 6: Develop for Azure Storage
 
