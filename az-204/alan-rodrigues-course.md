@@ -213,6 +213,8 @@
 - container: the runnable instance of an image on which your app can run
 - once you install the Docker runtime on your machine (Linux or Windows) you can deploy containers based on an image
 - Docker Hub is a website with tons of pre-made Docker images
+- if you want to access a website being run in a Docker container, you have to specify a port mapping when you deploy the container
+    - the container is isolated from the machine, including its network, that's why you have to tell Docker which port you want it to forward the site to so you can access it from the machine's browser
 
 ### Section 6: Develop for Azure Storage
 
