@@ -217,8 +217,8 @@
     - the container is isolated from the machine, including its network, that's why you have to tell Docker which port you want it to forward the site to so you can access it from the machine's browser
     - you can then create an inbound traffic rule for the VM so that you can access the app -> that the container is running -> on the VM -> through the browser on your physical machine
 - Windows Subsystem for Linux
-    - installing Docker desktop on a Windows machine automatically isntalls Windows Subsystem for Linux
-    - WSL creates an instance of Linux running on the machine, which Docker then runs on
+    - installing Docker desktop on a Windows machine automatically installs Windows Subsystem for Linux
+    - WSL creates a Linux environment on the machine, which Docker then runs on
 
 ### Section 6: Develop for Azure Storage
 
