@@ -1,5 +1,6 @@
 ### virtual machines
-
+- Azure spot instance: you get to rent for cheap a VM for a short time (less than a day)
+- after choosing options for the VM you can save those settings as an ARM template
 
 ### Azure App Service
 
