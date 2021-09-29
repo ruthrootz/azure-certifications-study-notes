@@ -4,10 +4,10 @@
 - resources created with a VM
     - VM itself
     - public IP address
+    - virtual network card
     - network security group
     - virtual network (in the same region as the VM)
     - virtual disk/s
-    - virtual network card
     - optional resources
         - automatic shutdown rule
         - etc.
