@@ -21,6 +21,9 @@
     - a background task that is attached to a web app
     - it runs on a schedule
     - kind of like a timer-triggered Azure Function
+- deployment slots
+    - a way to host multiple instances of an app all under one web app instance
+- CLI hint: use `get-command *{search term}*` to search for a command
 
 ### containers
 
