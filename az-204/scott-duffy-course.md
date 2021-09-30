@@ -17,6 +17,7 @@
     - admin user password doesn't get saved/imported as a parameter
 
 ### Azure App Service
+- a web app lives inside an app service plan
 - WebJobs
     - a background task that is attached to a web app
     - it runs on a schedule
