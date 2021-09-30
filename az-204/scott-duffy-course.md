@@ -39,14 +39,15 @@
     - you can pick to deploy your web app to a Docker container when you create the app resource
     - you can create a Kubernetes resource, which is complex to set up and use, but it's powerful and scales well
     - you can create an Azure container instance, which is a simple and fast way to get a container running, but it's not as powerful as Kubernetes and it doesn't scale
-- you can turn your web app project into an image right from VS
+- you can build your web app project into an image and push it to a directory right from VS
+- you can then deploy those images to an Azure web app, a VM with Docker running on it, an Azure container instance, etc.
 - Docker image: a bundle of OS, dependencies and code that can be used to create and run a container instance
 - Azure container registry
     - a place to publish private container images
     - DockerHub, on the other hand, is a public registry
     - you create a container registry as a resource
 - Azure container instances
-    - 
+    - a container instance is a deployed/running container image
 
 ### Function App
 
