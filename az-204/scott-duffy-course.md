@@ -11,6 +11,10 @@
     - optional resources
         - automatic shutdown rule
         - etc.
+- ARM tempaltes
+    - creating a VM from an ARM template gives you a form with inputs for the parameters in the template script
+    - you can save the parameters JSON file from a deployed VM and import the JSON into the template form
+    - admin user password doesn't get saved/imported as a parameter
 
 ### Azure App Service
 
