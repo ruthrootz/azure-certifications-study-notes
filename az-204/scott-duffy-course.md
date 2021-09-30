@@ -39,6 +39,7 @@
     - you can pick to deploy your web app to a Docker container when you create the app resource
     - you can create a Kubernetes resource, which is complex to set up and use, but it's powerful and scales well
     - you can create an Azure container instance, which is a simple and fast way to get a container running, but it's not as powerful as Kubernetes and it doesn't scale
+- Docker image: a bundle of OS, dependencies and code that can be used to create and run a container instance
 - Azure container registry
     - 
 - Azure container instances
