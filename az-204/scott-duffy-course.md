@@ -48,6 +48,7 @@
     - a container registry is a resource
 - Azure Container Instance
     - a container instance is a resource in which a deployed container image runs
+    - ACI is faster to deploy than an app service, but app services have more features (backups, scaling, etc.)
 
 ### Function App
 
