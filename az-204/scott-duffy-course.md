@@ -25,6 +25,13 @@
 - deployment slots
     - a way to host multiple instances of an app all under one web app instance
 - CLI hint: use `get-command *{search term}*` to search for a command
+- Kudu
+    - when you publish your web app, you get a URL for the Kudu site of your app
+    - the Kudu site gives you details about your app
+        - files
+        - log streams
+        - deployment scripts
+    - from the site you can use a cloud Bash or PowerShell shell to navigate the directories
 
 ### containers
 
