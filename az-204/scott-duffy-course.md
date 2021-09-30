@@ -17,7 +17,10 @@
     - admin user password doesn't get saved/imported as a parameter
 
 ### Azure App Service
-- 
+- WebJobs
+    - a background task that is attached to a web app
+    - it runs on a schedule
+    - kind of like a timer-triggered Azure Function
 
 ### containers
 
