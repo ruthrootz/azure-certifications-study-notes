@@ -51,7 +51,7 @@
     - ACI is faster to deploy than an app service, but app services have more features (backups, scaling, etc.)
 
 ### Function App
-
+- 
 
 ### Azure storage accounts
 
