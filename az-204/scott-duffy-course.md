@@ -52,10 +52,11 @@
 
 ### Function App
 - Durable Functions
-    - supports state
-    - supports long-running tasks (more than 30min)
+    - stateful
+    - long-running tasks (more than 30min)
     - can be suspended while it waits for another call to complete
-    - they can call other functions
+    - can call other functions
+    - can make async calls
     - made up of
         - client: the original function that gets triggered, generally starts the orchestrator
         - orchestrator: the traffic cop, makes sure the activities run in the right order
