@@ -51,7 +51,15 @@
     - ACI is faster to deploy than an app service, but app services have more features (backups, scaling, etc.)
 
 ### Function App
-- 
+- Durable Functions
+    - supports state
+    - supports long-running tasks (more than 30min)
+    - can be suspended while it waits for another call to complete
+    - they can call other functions
+    - made up of
+        - client
+        - orchestrator
+        - activities
 
 ### Azure storage accounts
 
