@@ -61,6 +61,13 @@
         - client: the original function that gets triggered, generally starts the orchestrator
         - orchestrator: the traffic cop, makes sure the activities run in the right order
         - activity: basic unit of work in a function
+- how to set up durable functions
+    - create an app service plan
+    - go to App Service Editor
+    - create a package.json file in the appervice root
+    - add a generic package to it
+    - use npm to install durable functions package
+        - `npm install durable-functions`
 
 ### Azure storage accounts
 
