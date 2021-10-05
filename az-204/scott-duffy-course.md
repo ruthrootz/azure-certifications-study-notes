@@ -81,11 +81,19 @@
     - `yield context.df.createTimer(deadline.toDate());`
     - `outputs.push(yield context.df.callActivity('ActivityFunctionName', 'parameter/s'));`
 - Function Core Tools - func
-    - you can create function apps in the cloud shell
+    - you can create functions in the cloud shell
     - `func init` + `func new` and then `code .` to open a code editor
-    - `func start` runs the app on localhost in the cloud shell
+    - `func start` runs the function on localhost in the cloud shell
     -  then you can `az functionapp create` to create a function app
     - `func azure functionapp publish "name of function app"` to publish the function to a function app
+- custom handlers
+    - use programming languages that aren't traditionally supported by Azure function apps
+    - choose "Custom Handler" for runtime stack on the create function app screen
+    - you have to develop the app in a code editor that supports your language
+    - in host.json you
+        - set the `customHandler.description/defaultExecutablePath` to `handler` (or `handler.exe` for Windows)
+        - set `customHandler/enableForwardingHttpRequest` to `true`
+        - the handler will be the complied function code
 
 ### Azure storage accounts
 
