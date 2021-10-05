@@ -57,9 +57,9 @@
     - can be suspended while it waits for another call to complete
     - they can call other functions
     - made up of
-        - client
-        - orchestrator
-        - activities
+        - client: the original function that gets triggered, generally starts the orchestrator
+        - orchestrator: the traffic cop, makes sure the activities run in the right order
+        - activity: basic unit of work in a function
 
 ### Azure storage accounts
 
