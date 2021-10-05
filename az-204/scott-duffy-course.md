@@ -96,7 +96,7 @@
         - the handler will be the complied function code
 
 ### Azure storage accounts
-
+- 
 
 ### CosmosDB
 
