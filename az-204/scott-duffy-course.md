@@ -64,7 +64,7 @@
 - how to set up durable functions
     - create an app service plan
     - go to App Service Editor
-    - create a package.json file in the appervice root
+    - create a package.json file in the app service root
     - add app name and version to the file
     - use npm to install durable functions package
         - `npm install durable-functions`
