@@ -68,9 +68,18 @@
     - add app name and version to the file
     - use npm to install durable functions package
         - `npm install durable-functions`
-    - you can now create a function based on the durable functions starter template
-    - then create a function based on the durable functions orchestrator template
-    - then create functions for each activity, based on the durable functions activity template
+    - you can now create a function based on the durable function starter template
+    - then create a function based on the durable function orchestrator template
+        - it references the activity functions
+    - then create functions for each activity, based on the durable function activity template
+    - test the durable function by calling the starter/client function
+        - it returns several URLs that can give you back different information about the durable function and its state
+- delays and timers
+    - install TypeScript and Moment from the App Service Plan's console
+    - add `const moment = require('moment');` to the orchestrator function
+    - `deadline = moment.utc(context.df.currentUtcDateTime).add(1, 'h');`
+    - `yield context.df.createTimer(deadline.toDate());`
+    - `outputs.push(yield context.df.callActivity('ActivityFunctionName', 'parameter/s'));`
 
 ### Azure storage accounts
 
