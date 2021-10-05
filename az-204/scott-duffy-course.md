@@ -68,6 +68,9 @@
     - add app name and version to the file
     - use npm to install durable functions package
         - `npm install durable-functions`
+    - you can now create a function based on the durable functions starter template
+    - then create a function based on the durable functions orchestrator template
+    - then create functions for each activity, based on the durable functions activity template
 
 ### Azure storage accounts
 
