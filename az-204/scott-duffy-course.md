@@ -65,7 +65,7 @@
     - create an app service plan
     - go to App Service Editor
     - create a package.json file in the appervice root
-    - add a generic package to it
+    - add app name and version to the file
     - use npm to install durable functions package
         - `npm install durable-functions`
 
