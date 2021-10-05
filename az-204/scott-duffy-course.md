@@ -80,6 +80,12 @@
     - `deadline = moment.utc(context.df.currentUtcDateTime).add(1, 'h');`
     - `yield context.df.createTimer(deadline.toDate());`
     - `outputs.push(yield context.df.callActivity('ActivityFunctionName', 'parameter/s'));`
+- Function Core Tools - func
+    - you can create function apps in the cloud shell
+    - `func init` + `func new` and then `code .` to open a code editor
+    - `func start` runs the app on localhost in the cloud shell
+    -  then you can `az functionapp create` to create a function app
+    - `func azure functionapp publish "name of function app"` to publish the function to a function app
 
 ### Azure storage accounts
 
