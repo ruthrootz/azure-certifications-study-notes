@@ -97,6 +97,9 @@
 
 ### Azure storage accounts
 - unmanaged storage accounts are the ones you create as resources for whatever you want
+    - premium performance tier
+        - you pay more per GB of storage but less for the transactions themselves
+        - used for data you're accessing hundreds of times a second
 - managed storage accounts are the accounts Azure makes when you create a VM, etc.
 
 ### CosmosDB
