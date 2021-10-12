@@ -100,6 +100,9 @@
     - premium performance tier
         - you pay more per GB of storage but less for the transactions themselves
         - used for data you're accessing hundreds of times a second
+    - in the networking tab, when creating a storage account, you can choose
+        - access the account through a public endpoint
+        - access the account through a specific network, and then you pick/create a virtual network
 - managed storage accounts are the accounts Azure makes when you create a VM, etc.
 
 ### CosmosDB
