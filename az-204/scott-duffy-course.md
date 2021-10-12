@@ -96,7 +96,8 @@
         - the handler will be the complied function code
 
 ### Azure storage accounts
-- 
+- unmanaged storage accounts are the ones you create as resources for whatever you want
+- managed storage accounts are the accounts Azure makes when you create a VM, etc.
 
 ### CosmosDB
 
