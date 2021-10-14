@@ -148,6 +148,12 @@
     - the higher the RU, the more the DB will cost you
     - you can choose to share those RU/s across all the containers in your DB
     - partition key: the field by which CosmosDB will physically split up your data
+- default consistency (how the data syncs across replicated regions)
+    - strong: data is automatically synced each time it changes
+    - bounded stateless: you set the maximum amount of time you will allow before data has to be synced
+    - session: this is the default, the clients in the current session will see their data synced across whatever regions they're accessing, but for regions that aren't being currently accessed there are undefined delays between syncs
+    - consistent prefix: no guarantee of when the data gets synced, but it'll always be in the right order
+    - eventual: no guarantee of when the data gets synced and no guarantee of order
 
 ### SQL database
 
