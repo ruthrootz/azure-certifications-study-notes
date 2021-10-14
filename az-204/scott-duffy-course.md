@@ -119,7 +119,13 @@
 - managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
 
 ### CosmosDB
-
+- no-SQL, non-relational DB
+- types of CosmosDB accounts
+    - Core (SQL)
+    - MongoDB
+    - Cassandra
+    - Azure Table
+    - Gremlin (Graph)
 
 ### SQL database
 
