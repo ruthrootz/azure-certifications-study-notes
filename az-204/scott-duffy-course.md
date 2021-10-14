@@ -105,7 +105,7 @@
             - you'd still need a private access key to hit the endpoint
         - access the account through a specific network, and then you pick/create a virtual network
         - a private endpoint cannot be accessed from the internet, even with an access key or via VPN
-- managed storage accounts are the accounts Azure makes when you create a VM, etc.
+- managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
 
 ### CosmosDB
 
