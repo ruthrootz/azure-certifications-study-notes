@@ -132,6 +132,8 @@
         - different from a table in an Azure storage account
     - Gremlin (Graph)
         - based on nodes, edges/relations
+- you can make the CosmosDB account geo-redundant (which means you'll be paying double for storage)
+- if you pick geo-redundant storage you can enable the paired region to make writes to the account (doubles the cost of the account again)
 
 ### SQL database
 
