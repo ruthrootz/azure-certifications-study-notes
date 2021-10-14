@@ -96,6 +96,7 @@
         - the handler will be the complied function code
 
 ### Azure storage accounts
+- managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
 - unmanaged storage accounts are the ones you create as resources for whatever you want
     - premium performance tier
         - you pay more per GB of storage but less for the transactions themselves
@@ -108,15 +109,14 @@
     - blob containers
         - types of containers
             - private: no anonymous read access
-            - blob: anonymous read access for blobs
+            - blob: anonymous read access for all the blobs
             - container: anonymous read access for entire container
     - accessing data from storage account
-        - under the storage account's properties, there is a URL for each of the service types (blob, file, queue, table, Data Lake, static website)
+        - under the storage account's properties, there is a URL for each of the container types (blob, file, queue, table, Data Lake, static website)
             - if you have read-only geo-redundant storage enabled, you get a secondary endpoint for each type as well
         - under access keys you will find the access keys that enable full access to the entire account
-            - hitting the endpoint for a file or account/service with the key will serve you the file/account/service
-        - under shared access signature (SAS) you can select permissions and a time duration that the files/services can be accesses and then generate a token that can be appended to the endpoint URLs
-- managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
+            - hitting the endpoint for a file/account/container with the key will serve you the file/account/container
+        - under shared access signature (SAS) you can select permissions and a time duration that the files/containers can be accesses and then generate a token that can be appended to the endpoint URLs
 
 ### CosmosDB
 - no-SQL, non-relational DB
@@ -134,6 +134,9 @@
         - based on nodes, edges/relations
 - you can make the CosmosDB account geo-redundant (which means you'll be paying double for storage)
 - if you pick geo-redundant storage you can enable the paired region to make writes to the account (doubles the cost of the account again)
+- two copies of DB backups are stored for you for free
+    - you can then choose between locally- or geo-redundant storage
+- 
 
 ### SQL database
 
