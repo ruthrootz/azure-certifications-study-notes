@@ -136,7 +136,10 @@
 - if you pick geo-redundant storage you can enable the paired region to make writes to the account (doubles the cost of the account again)
 - two copies of DB backups are stored for you for free
     - you can then choose between locally- or geo-redundant storage
-- 
+- once you have an account
+    - you can create containers and explore them through the Data Explorer
+    - you can create role-based access controls
+    - you can add/remove read regions on the replicate page
 
 ### SQL database
 
