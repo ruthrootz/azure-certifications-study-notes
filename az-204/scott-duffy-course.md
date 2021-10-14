@@ -122,10 +122,16 @@
 - no-SQL, non-relational DB
 - types of CosmosDB accounts
     - Core (SQL)
+        - JSON documents stored
+        - you can use SQL to access the data
     - MongoDB
+        - usually used for migrating an existing DB
     - Cassandra
+        - also usually used for migrating
     - Azure Table
+        - different from a table in an Azure storage account
     - Gremlin (Graph)
+        - based on nodes, edges/relations
 
 ### SQL database
 
