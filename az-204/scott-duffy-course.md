@@ -113,7 +113,7 @@
     - accessing data from storage account
         - under the storage account's properties, there is a URL for each of the service types (blob, file, queue, table, Data Lake, static website)
             - if you have read-only geo-redundant storage enabled, you get a secondary endpoint for each type as well
-        - under access keys you will find the access keys that enable full access to the emtire account
+        - under access keys you will find the access keys that enable full access to the entire account
             - hitting the endpoint for a file or account/service with the key will serve you the file/account/service
         - under shared access signature (SAS) you can select permissions and a time duration that the files/services can be accesses and then generate a token that can be appended to the endpoint URLs
 - managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
