@@ -120,6 +120,8 @@
 
 ### CosmosDB
 - no-SQL, non-relational DB
+- Cosmos guarantees sub 10ms latency
+- it is more expensive than an Azure Table Storage
 - types of CosmosDB accounts
     - Core (SQL)
         - JSON documents stored
