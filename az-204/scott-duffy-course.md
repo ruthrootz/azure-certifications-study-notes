@@ -141,6 +141,11 @@
     - you can create role-based access controls
     - you can add/remove read regions on the replicate page
         - the synchronizing and replication happens automatically
+    - on the keys page you can view your primary and secondary access keys, both the read-write and the read keys, as well as the URI for the account
+- creating a container
+    - you get to pick an RU/second level (400+)
+    - 1 RU/s: the amount of compute needed to read 1kb of data in one second
+    - the higher the RU, the more the DB will cost you
 
 ### SQL database
 
