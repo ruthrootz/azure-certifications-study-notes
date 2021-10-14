@@ -110,6 +110,9 @@
             - private: no anonymous read access
             - blob: anonymous read access for blobs
             - container: anonymous read access for entire container
+    - accessing data from storage account
+        - under the storage account's Properties, there is a URL for each of the service types (blob, file, queue, table, Data Lake, etc.)
+        - if you have read-only geo-redundant storage enabled, you get a secondary endpoint for each type as well
 - managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
 
 ### CosmosDB
