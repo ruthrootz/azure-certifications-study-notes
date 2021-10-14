@@ -146,6 +146,8 @@
     - you get to pick an RU/second level (400+)
     - 1 RU/s: the amount of compute needed to read 1kb of data in one second
     - the higher the RU, the more the DB will cost you
+    - you can choose to share those RU/s across all the containers in your DB
+    - partition key: the field by which CosmosDB will physically split up your data
 
 ### SQL database
 
