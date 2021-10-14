@@ -140,6 +140,7 @@
     - you can create containers and explore them through the Data Explorer
     - you can create role-based access controls
     - you can add/remove read regions on the replicate page
+        - the synchronizing and replication happens automatically
 
 ### SQL database
 
