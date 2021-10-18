@@ -186,6 +186,8 @@
             - how many cores you want
             - how much memory you want
         - much more expensive than the DTU model
+    - when you create a DB you're also creating a server (unless you specified an existing server to put the DB on)
+    - 
 - Azure SQL Managed Instance
     - Azure manages performance and scaling for you
 - SQL Data Warehouse
