@@ -176,11 +176,11 @@
         - good if the DBs are independent and they won't both get flooded with traffic at the same time
     - DTU: data transaction unit, a combo of CPU and memory resources
         - you are charged per DTU
-        - the charge per DTU is different depending on the service tier you choose
+        - the charge per DTU is different depending on the pricing tier you choose
         - performance models: Basic, Standard, Premium
     - there is now also a vCore model that is used instead of the DTU model
         - you get to pick
-            - General Purpose, Hyperscale and Business Critical service tiers
+            - General Purpose, Hyperscale and Business Critical pricing tiers
             - provisioned / serverless
                 - serverless scales up or down automatically
                 - you can't predict your cost in advance
@@ -189,7 +189,7 @@
         - much more expensive than the DTU model
     - when you create a DB you're also creating a server (unless you specified an existing server to put the DB on)
     - you can set up Active Directory access
-    - you add IPs to the Firewall rules to access the DB
+    - you add IPs to the firewall rules to access the DB
 - Azure SQL Managed Instance
     - Azure manages performance and scaling for you
 - SQL Data Warehouse
