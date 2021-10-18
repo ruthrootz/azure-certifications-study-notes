@@ -179,7 +179,7 @@
         - performance models: Basic, Standard, Premium
     - there is now also a vCore model that is used instead of the DTU model
         - you get to pick
-            - General Purpouse, Hyperscale and Business Critical service tiers
+            - General Purpose, Hyperscale and Business Critical service tiers
             - provisioned / serverless
             - how many cores you want
             - how much memory you want
