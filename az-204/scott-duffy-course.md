@@ -169,6 +169,7 @@
     - cheaper
     - usually the best option
     - PaaS
+    - you pay per DB
     - there are also MariaDB, MySQL and PostgreSQL options
     - elastic pool
         - you can have multiple DBs sharing the same compute resources
