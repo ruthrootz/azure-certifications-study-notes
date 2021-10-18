@@ -202,7 +202,12 @@
     - used for reporting
 
 ### blob containers
-
+- container into which you can put whatever files you want
+- access levels
+    - private: no anonymous access
+    - blob: anonymous read access to blobs only
+    - container: anonymous read access to all containers and blobs
+- to access a blob/container you still need an access key (I think)
 
 ### Azure authentication
 
