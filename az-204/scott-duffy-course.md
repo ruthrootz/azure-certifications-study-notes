@@ -163,6 +163,8 @@
     - not cheapest
     - you'd essentially have a VM running what you used to have hosted on your own machines
 - Azure SQL Server resource
+    - also a simple option if you have basic DBs
+    - migrate data and change connection strings, that's it
     - 
 
 ### blob containers
