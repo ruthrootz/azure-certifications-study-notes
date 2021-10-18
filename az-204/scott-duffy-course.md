@@ -158,7 +158,12 @@
     - eventual: no guarantee of when the data gets synced and no guarantee of order
 
 ### SQL database
-
+- SQL Server resource
+    - the simplest way to migrate your existing DBs is to create a
+    - not cheapest
+    - you'd essentially have a VM running what you used to have hosted on your own machines
+- Azure SQL Server resource
+    - 
 
 ### blob containers
 
