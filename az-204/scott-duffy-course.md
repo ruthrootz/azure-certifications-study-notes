@@ -170,6 +170,11 @@
     - usually the best option
     - PaaS
     - there are also MariaDB, MySQL and PostgreSQL options
+    - elastic pool
+        - you can have multiple DBs sharing the same compute resources
+        - good if the DBs are independent and they won't both get flooded with traffic at the same time
+    - DTU: data transaction unit
+        - 
 - Azure SQL Managed Instance
     - Azure manages performance and scaling for you
 - SQL Data Warehouse
