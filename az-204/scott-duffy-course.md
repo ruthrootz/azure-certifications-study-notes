@@ -173,8 +173,16 @@
     - elastic pool
         - you can have multiple DBs sharing the same compute resources
         - good if the DBs are independent and they won't both get flooded with traffic at the same time
-    - DTU: data transaction unit
-        - 
+    - DTU: data transaction unit, a combo of CPU and memory resources
+        - you are charged per DTU
+        - the charge per DTU is different depending on the service tier you choose
+        - performance models: Basic, Standard, Premium
+    - there is now also a vCore model that is used instead of the DTU model
+        - you get to pick
+            - General Purpouse, Hyperscale and Business Critical service tiers
+            - provisioned / serverless
+            - how many cores you want
+            - how much memory you want
 - Azure SQL Managed Instance
     - Azure manages performance and scaling for you
 - SQL Data Warehouse
