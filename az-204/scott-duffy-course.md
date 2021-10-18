@@ -181,8 +181,11 @@
         - you get to pick
             - General Purpose, Hyperscale and Business Critical service tiers
             - provisioned / serverless
+                - serverless scales up or down automatically
+                - you can't predict your cost in advance
             - how many cores you want
             - how much memory you want
+        - much more expensive than the DTU model
 - Azure SQL Managed Instance
     - Azure manages performance and scaling for you
 - SQL Data Warehouse
