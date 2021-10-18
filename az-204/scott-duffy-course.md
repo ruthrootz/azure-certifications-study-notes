@@ -192,7 +192,7 @@
     - you add IPs to the firewall rules to access the DB
     - geo replication
         - you can replicate your data in multiple regions
-        - each time you create a new server
+        - each time, you create a new server
         - read-only
         - you pay double what you did if you only have the DB on your primary server
 - Azure SQL Managed Instance
