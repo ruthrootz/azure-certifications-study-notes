@@ -189,7 +189,7 @@
         - much more expensive than the DTU model
     - when you create a DB you're also creating a server (unless you specified an existing server to put the DB on)
     - you can set up Active Directory access
-    - you add IPs to the firewall rules to access the DB
+    - you add IPs to the firewall rules of the server to access the DB/s
     - geo replication
         - you can replicate your data in multiple regions
         - each time, you create a new server
