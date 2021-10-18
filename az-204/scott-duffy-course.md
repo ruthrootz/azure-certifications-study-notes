@@ -213,7 +213,7 @@
     - you can use it to move files between containers, etc.
     - if you're moving between storage accounts you're going to have different `/SourceKey` and `/DestinationKey` arguments
 - leases
-    - different APIs/users can "lease" a file while they use it, and that locks out all other users
+    - different clients can "lease" a file while they use it, and that locks out all other users
     - once the client is done with the file, they break the lease so that another client can access it
 
 ### Azure authentication
