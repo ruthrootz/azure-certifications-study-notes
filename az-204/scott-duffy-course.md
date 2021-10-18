@@ -162,10 +162,12 @@
     - the simplest way to migrate your existing DBs is to create a
     - not cheapest
     - you'd essentially have a VM running what you used to have hosted on your own machines
+    - used if you need to really fine-tune the DBs and/or manage CPU prescicelly
 - Azure SQL Server resource
     - also a simple option if you have basic DBs
     - migrate data and change connection strings, that's it
-    - 
+    - cheaper
+    - usually the best option
 
 ### blob containers
 
