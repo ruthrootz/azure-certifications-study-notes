@@ -168,9 +168,13 @@
     - migrate data and change connection strings, that's it
     - cheaper
     - usually the best option
+    - PaaS
+    - there are also MariaDB, MySQL and PostgreSQL options
 - Azure SQL Managed Instance
     - Azure manages performance and scaling for you
-- 
+- SQL Data Warehouse
+    - used for tons of data
+    - used for reporting
 
 ### blob containers
 
