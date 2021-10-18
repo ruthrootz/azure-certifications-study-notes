@@ -211,6 +211,7 @@
 - AzCopy
     - a Windows command line tool
     - you can use it to move files between containers, etc.
+    - if you're moving between storage accounts you're going to have different `/SourceKey` and `/DestinationKey` arguments
 
 ### Azure authentication
 
