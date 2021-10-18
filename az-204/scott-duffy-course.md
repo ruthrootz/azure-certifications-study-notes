@@ -168,6 +168,9 @@
     - migrate data and change connection strings, that's it
     - cheaper
     - usually the best option
+- Azure SQL Managed Instance
+    - Azure manages performance and scaling for you
+- 
 
 ### blob containers
 
