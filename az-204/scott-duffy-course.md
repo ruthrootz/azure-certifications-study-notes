@@ -208,6 +208,9 @@
     - blob: anonymous read access to blobs only
     - container: anonymous read access to all containers and blobs
 - to access a blob/container you still need an access key (I think)
+- AzCopy
+    - a Windows command line tool
+    - you can use it to move files between containers, etc.
 
 ### Azure authentication
 
