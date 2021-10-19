@@ -229,7 +229,7 @@
     - you can create an Azure AD account with your own domain (instead of the default microsoft domain)
 - Azure tenant
     - when you create a new account, it creates a completely new Azure tenant, without resources or even a subscription
-
+    - you can hook the tenant up to an app and use the tenant to authenticate and register the app's users
 
 ### Azure Access Control
 
