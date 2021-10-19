@@ -236,14 +236,20 @@
     - your app sends a request to your AD account and the AD account sends back a token to the redirect URI that you specify in the AD account application
     - you can create users for individual apps in your AD account
 - RBAC (role based access control)
+    - works at pretty much every level (subscription, resource groups, resources)
     - give users access only to what they need
     - access is based on type + role + scope
     - roles
-        - contributer
-        - owner
-        - reader
+        - owner: access to everything and can grant access to other users
+        - contributer: access to everything but can't grant access to others
+        - reader: read-only
+        - and tons more, specific to types of resources
+        - and custom roles
     - scopes
+        - this resource
         - 
+- SAS (shared access signiture)
+    - 
 
 ### Azure Access Control
 
