@@ -221,6 +221,8 @@
     - archive: stored for at least 180 days, cheap to store, expensive to access
 
 ### Azure authentication
+- Azure Active Directory
+    - 
 
 
 ### Azure Access Control
