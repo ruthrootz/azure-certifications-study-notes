@@ -227,12 +227,14 @@
     - if you're connected to Windows AD, you don't have to sync all your Azure AD accounts, i.e. the syncing can go only one way (Windows -> Azure)
     - you can allow users to log in with Google/Facebook/Microsoft
     - you can create an Azure AD account with your own domain (instead of the default Microsoft domain)
+    - AD has built-in multi-factor authentication
 - Azure tenant
     - when you create a new account, it creates a completely new Azure tenant, without resources or even a subscription
     - you can hook the tenant up to an app and use the tenant to authenticate and register the app's users
     - once you register your app on the AD account, you get a client ID to put into your app
     - then you activate tokens for the application (under Authentication)
     - your app sends a request to your AD account and the AD account sends back a token to the redirect URI that you specify in the AD account application
+    - you can create users for individual apps in your AD account
 
 ### Azure Access Control
 
