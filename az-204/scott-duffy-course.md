@@ -235,6 +235,15 @@
     - then you activate tokens for the application (under Authentication)
     - your app sends a request to your AD account and the AD account sends back a token to the redirect URI that you specify in the AD account application
     - you can create users for individual apps in your AD account
+- RBAC (role based access control)
+    - give users access only to what they need
+    - access is based on type + role + scope
+    - roles
+        - contributer
+        - owner
+        - reader
+    - scopes
+        - 
 
 ### Azure Access Control
 
