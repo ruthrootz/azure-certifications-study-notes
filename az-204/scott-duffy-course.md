@@ -240,7 +240,7 @@
     - access is based on type + role + scope
     - roles
         - owner: access to everything and can grant access to other users
-        - contributer: access to everything but can't grant access to others
+        - contributor: access to everything but can't grant access to others
         - reader: read-only
         - and tons more, specific to types of resources
         - and custom roles
@@ -249,9 +249,12 @@
         - resource group
         - subscription
         - management group
-- SAS (shared access signiture)
+- SAS (shared access signature)
     - used instead of making AD accounts for every single user who needs to access your resources
-    - you generate keys to allow users with that key to access the resource / resource group / etc.
+    - access keys allow users with that key to access the resource / resource group / etc.
+    - shared access signatures allow you to assign much more granular permissions
+    - the user would use the combination of access key and SAS to access the resource/etc.
+    - you can revoke SAS tokens, but you can regenerate access keys
 
 ### Azure Access Control
 
