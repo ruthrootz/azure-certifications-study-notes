@@ -222,7 +222,10 @@
 
 ### Azure authentication
 - Azure Active Directory
-    - 
+    - different than Windows AD
+    - you can connect on-prem (Windows AD) with Azure AD
+    - if you're connected to Windows AD, you don't have to sync all your Azure AD accounts, i.e. the syncing can go only one way (Windows -> Azure)
+    - you can allow users to log in with Google
 
 
 ### Azure Access Control
