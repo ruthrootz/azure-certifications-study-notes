@@ -226,7 +226,7 @@
     - you can connect on-prem (Windows AD) with Azure AD
     - if you're connected to Windows AD, you don't have to sync all your Azure AD accounts, i.e. the syncing can go only one way (Windows -> Azure)
     - you can allow users to log in with Google/Facebook/Microsoft
-    - you can create an Azure AD account with your own domain (instead of the default microsoft domain)
+    - you can create an Azure AD account with your own domain (instead of the default Microsoft domain)
 - Azure tenant
     - when you create a new account, it creates a completely new Azure tenant, without resources or even a subscription
     - you can hook the tenant up to an app and use the tenant to authenticate and register the app's users
