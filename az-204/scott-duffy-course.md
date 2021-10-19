@@ -215,6 +215,10 @@
 - leases
     - different clients can "lease" a file while they use it, and that locks out all other users
     - once the client is done with the file, they break the lease so that another client can access it
+- access tiers
+    - hot: the default, it's cheap to access, expensive to store
+    - cool: stored for at least 30 days
+    - archive: stored for at least 180 days, cheap to store, expensive to access
 
 ### Azure authentication
 
