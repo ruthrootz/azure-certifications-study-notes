@@ -289,7 +289,17 @@
         - certificates: used for HTTPS and SSL certificates
 
 ### scaling apps and services
-
+- free plan and basic plan don't offer auto scaling
+- manual scaling
+    - scale up: moving between plan tiers for an app service
+    - scale out: increase number of instances of the app
+- automatic scaling
+    - availible on the standard plan and up
+    - 
+- VM scale sets
+    - 
+- single VM scaling
+    - 
 
 ### caching and content delivery networks
 
