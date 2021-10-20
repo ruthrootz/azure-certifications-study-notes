@@ -379,6 +379,19 @@
     - it's an if-this-then-that service
     - trigger: HTTP request, file is added to a server, when a tweet is posted
     - action: run an Azure Function App, upload a file, make an HTTP request, write to a DB, condition, etc.
+- Azure Search
+    - allows you to add in-app search
+    - different tiers offer you different sizes and number of indexes
+    - higher tiers offer
+        - more storage
+        - scaling instances
+        - partitions
+        - replicas
+        - load balancing
+- API Management
+    - 
+- Swagger / OpenAPI
+- Event Grid / Event Hub
 
 ### application messaging
 
