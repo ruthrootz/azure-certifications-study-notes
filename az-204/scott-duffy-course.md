@@ -271,14 +271,14 @@
             - it doesn't support secure transfer for custom domain names
         - you then use your encryption key for transfers from/to the app that uses that storage account
 - Azure DBs
-    - under transparent data encryption
-        - automatically encrypted at rest
-        - you can't turn it off
+    - transparent data encryption page
+        - data is automatically encrypted at rest
+        - you can't turn server encryption off
         - like with storage accounts you can choose to use your own key
     - you can encrypt at server and DB levels
-        - you can turn off encryption for DBs
+        - you can turn off encryption for individual DBs
     - the master DB can't be encrypted because that's the DB that stores the keys
-- Azure key vaults
+- Azure key vaults page
     - you can restrict access to a key vault to only specific virtual networks
     - used to store
         - keys: encryption keys
@@ -306,9 +306,16 @@
     - you should have a scale in and scale out rule for each condition
     - you can have multiple scale conditions (that track different metrics)
 - VM scale sets
-    - 
+    - group of identical VMs
+    - you can set up scaling rules like you can for app services
+    - you don't spend more for using scale sets, but you do pay per instance
+- the difference between avalibility sets and scale sets
+    - scale sets are identical VMs
+    - availability sets are individual VMs that share resources
 - single VM scaling
-    - 
+    - under VM size page, you can resize the VM
+- load balancing
+    - you can create a load balancer and add availibility sets to it
 
 ### caching and content delivery networks
 
