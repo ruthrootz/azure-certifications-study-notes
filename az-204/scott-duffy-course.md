@@ -389,6 +389,9 @@
         - replicas
         - load balancing
 - API Management
+    - lets you manage your API, especially public or B2B APIs
+    - get analytics
+    - rate limit and quota your APIs
     - 
 - Swagger / OpenAPI
 - Event Grid / Event Hub
