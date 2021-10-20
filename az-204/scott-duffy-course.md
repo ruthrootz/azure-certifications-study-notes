@@ -289,13 +289,22 @@
         - certificates: used for HTTPS and SSL certificates
 
 ### scaling apps and services
-- free plan and basic plan don't offer auto scaling
+- free plan and basic plan don't offer autoscaling
 - manual scaling
     - scale up: moving between plan tiers for an app service
     - scale out: increase number of instances of the app
 - automatic scaling
     - availible on the standard plan and up
-    - 
+    - standard plan can scale out to up to 10 instances
+    - when you enable autoscaling
+        - you define scaling conditions / rules
+        - you pick the metric source you want to monitor
+        - the specific metric
+        - the threshold
+        - and the resulting action
+    - you can set the min, max and default number of instances
+    - you should have a scale in and scale out rule for each condition
+    - you can have multiple scale conditions (that track different metrics)
 - VM scale sets
     - 
 - single VM scaling
@@ -311,5 +320,4 @@
 
 
 ### application messaging
-
 
