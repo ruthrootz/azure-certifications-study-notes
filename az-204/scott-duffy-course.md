@@ -309,13 +309,16 @@
     - group of identical VMs
     - you can set up scaling rules like you can for app services
     - you don't spend more for using scale sets, but you do pay per instance
-- the difference between avalibility sets and scale sets
+- the difference between availability sets and scale sets
     - scale sets are identical VMs
     - availability sets are individual VMs that share resources
 - single VM scaling
     - under VM size page, you can resize the VM
 - load balancing
-    - you can create a load balancer and add availibility sets to it
+    - you can create a load balancer and add availability sets to it
+- you can set up an ARM template that runs a script based on different VM metrics
+- transient faults
+    - 
 
 ### caching and content delivery networks
 
