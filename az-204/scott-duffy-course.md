@@ -373,7 +373,7 @@
 
 ### consuming Azure services
 - Logic App
-    - it's essentailly a workflow
+    - it's essentially a workflow
     - it's point-and-click and visual
     - you can pick from tons of templates
     - it's an if-this-then-that service
