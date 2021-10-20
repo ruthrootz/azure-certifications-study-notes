@@ -332,7 +332,9 @@
     - it's an in-memory DB
     - you use the StackExchange.Redis package
     - you use the connection string from your Redis Azure resource
-- CDN (conent delivery n)
+- CDN (conent delivery network)
+    - stores the static content from your app on a server that's not your web server
+    - stores the data closer to the client
     - 
 
 ### monitoring and logging
