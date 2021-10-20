@@ -259,7 +259,8 @@
     - you can revoke SAS tokens, but you can regenerate access keys
 
 ### secure data
-
+- storage accounts are encrypted at rest by default
+- you can't turn encryption off, but you can use your own encryption key
 
 ### scaling apps and services
 
