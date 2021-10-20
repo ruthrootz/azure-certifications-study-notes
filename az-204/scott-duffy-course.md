@@ -270,7 +270,11 @@
             - this is for HTTPS/SSL option
             - it doesn't support secure transfer for custom domain names
         - you then use your encryption key for transfers from/to the app that uses that storage account
-    - 
+- Azure DBs
+    - under transperent data encryption
+        - automatically encrypted at rest
+        - like with storage accounts you can choose to use your own key
+    - you can encrypt at server and DB levels
 
 ### scaling apps and services
 
