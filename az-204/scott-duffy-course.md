@@ -332,19 +332,22 @@
     - it's an in-memory DB
     - you use the StackExchange.Redis package
     - you use the connection string from your Redis Azure resource
-- CDN (conent delivery network)
+- CDN (content delivery network)
     - stores the static content from your app on a server that's not your web server
     - stores the data closer to the client
     - create a CDN
         - create a CDN profile
             - a CDN is a global service, you don't pick a region for it
-            - three companies offer CDN pervices on Azure
+            - three companies offer CDN services on Azure
                 - Verizon / Verizon Premium
                 - Microsoft
                 - Akamai
             - all the companies charge the same amount
         - create a CDN endpoint
-            - 
+            - this is the URL that your app will use to access the files
+            - the app will hit those endpoints, and if it doesn't find the content it'll request it from your server and store it in the cache for next time
+            - each time your static files get updated you have to purge the caches
+            - or you can version your files and specify the correct version in your app, forcing the clients to get the new version from the server and cache it instead of using the old file that was already cached
 
 ### monitoring and logging
 
