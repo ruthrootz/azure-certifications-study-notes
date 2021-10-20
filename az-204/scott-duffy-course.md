@@ -286,7 +286,7 @@
             - kind of like environment variables except env vars are usually used once per build and not reused during a runtime
             - secrets have URLs
             - ARM templates often access secrets, not just apps/APIs
-        - certificates: 
+        - certificates: used for HTTPS and SSL certificates
 
 ### scaling apps and services
 
