@@ -318,12 +318,12 @@
     - you can create a load balancer and add availability sets to it
 - you can set up an ARM template that runs a script based on different VM metrics
 - transient faults
-    - most of the time, scaling up doesn't effect users
+    - most of the time, scaling up doesn't affect users
     - scaling down does, because what if the cloud app is trying to scale down while an execution is happening?
     - that's called a transient fault
     - you should implement retry or back-off policies to handle failed requests
-    - you could use a queue or DB to recieve requests and then let it deal with failures instead of making the app making the request make the retry requests
-    - this uncouples the requesting API/app/server and the recieving API/app/server since neither has to directly talk to the other
+    - you could use a queue or DB to receive requests and then let it deal with failures instead of making the app making the request make the retry requests
+    - this uncouples the requesting API/app/server and the receiving API/app/server since neither has to directly talk to the other
 
 ### caching and content delivery networks
 
