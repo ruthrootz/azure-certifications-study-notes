@@ -335,7 +335,16 @@
 - CDN (conent delivery network)
     - stores the static content from your app on a server that's not your web server
     - stores the data closer to the client
-    - 
+    - create a CDN
+        - create a CDN profile
+            - a CDN is a global service, you don't pick a region for it
+            - three companies offer CDN pervices on Azure
+                - Verizon / Verizon Premium
+                - Microsoft
+                - Akamai
+            - all the companies charge the same amount
+        - create a CDN endpoint
+            - 
 
 ### monitoring and logging
 
