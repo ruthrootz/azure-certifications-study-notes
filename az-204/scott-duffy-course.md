@@ -267,6 +267,8 @@
             - you store them in your Key Vault
     - encryption in transit
         - in configuration you must enable secure transfer required
+            - this is for HTTPS/SSL option
+            - it doesn't support secure transfer for custom domain names
         - you then use your encryption key for transfers from/to the app that uses that storage account
     - 
 
