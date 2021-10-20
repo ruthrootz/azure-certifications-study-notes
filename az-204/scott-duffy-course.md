@@ -377,9 +377,8 @@
     - it's point-and-click and visual
     - you can pick from tons of templates
     - it's an if-this-then-that service
-    - parts
-        - trigger: HTTP request, file is added to a server, when a tweet is posted
-        - action: run an Azure Function App, upload a file, make an HTTP request, write to a DB, condition, etc.
+    - trigger: HTTP request, file is added to a server, when a tweet is posted
+    - action: run an Azure Function App, upload a file, make an HTTP request, write to a DB, condition, etc.
 
 ### application messaging
 
