@@ -273,8 +273,13 @@
 - Azure DBs
     - under transperent data encryption
         - automatically encrypted at rest
+        - you can't turn it off
         - like with storage accounts you can choose to use your own key
     - you can encrypt at server and DB levels
+        - you can turn off encryption for DBs
+    - the master DB can't be encrypted because that's the DB that stores the keys
+- Azure key vaults
+    - you can restrict access to a key vault to only specific virtual networks
 
 ### scaling apps and services
 
