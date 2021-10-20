@@ -294,7 +294,7 @@
     - scale up: moving between plan tiers for an app service
     - scale out: increase number of instances of the app
 - automatic scaling
-    - availible on the standard plan and up
+    - available on the standard plan and up
     - standard plan can scale out to up to 10 instances
     - when you enable autoscaling
         - you define scaling conditions / rules
