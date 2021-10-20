@@ -1,4 +1,4 @@
-### virtual machines
+## virtual machines
 - Azure spot instance: you get to rent for cheap a VM for a short time (less than a day)
 - after choosing options for the VM you can save those settings as an ARM template
 - resources created with a VM
@@ -16,7 +16,7 @@
     - you can save the parameters JSON file from a deployed VM and import the JSON into the template form
     - admin user password doesn't get saved/imported as a parameter
 
-### Azure App Service
+## Azure App Service
 - a web app lives inside an app service plan
 - ACU: Azure compute unit
 - WebJobs
@@ -34,7 +34,7 @@
         - deployment scripts
     - from the site you can use a cloud Bash or PowerShell shell to navigate the directories
 
-### containers
+## containers
 - Azure offers different container options
     - you can pick to deploy your web app to a Docker container when you create the app resource
     - you can create a Kubernetes resource, which is complex to set up and use, but it's powerful and scales well
@@ -50,7 +50,7 @@
     - a container instance is a resource in which a deployed container image runs
     - ACI is faster to deploy than an app service, but app services have more features (backups, scaling, etc.)
 
-### Function App
+## Function App
 - Durable Functions
     - stateful
     - long-running tasks (more than 30min)
@@ -95,7 +95,7 @@
         - set `customHandler/enableForwardingHttpRequest` to `true`
         - the handler will be the complied function code
 
-### Azure storage accounts
+## Azure storage accounts
 - managed storage accounts are the accounts Azure makes when you create a VM, open the cloud shell for the first time, etc., you don't create them directly
 - unmanaged storage accounts are the ones you create as resources for whatever you want
     - premium performance tier
@@ -118,7 +118,7 @@
             - hitting the endpoint for a file/account/container with the key will serve you the file/account/container
         - under shared access signature (SAS) you can select permissions and a time duration that the files/containers can be accesses and then generate a token that can be appended to the endpoint URLs
 
-### CosmosDB
+## CosmosDB
 - no-SQL, non-relational DB
 - Cosmos guarantees sub 10ms latency
 - it is more expensive than an Azure Table Storage
@@ -157,7 +157,7 @@
     - consistent prefix: no guarantee of when the data gets synced, but it'll always be in the right order
     - eventual: no guarantee of when the data gets synced and no guarantee of order
 
-### SQL database
+## SQL database
 - SQL Server resource
     - the simplest way to migrate your existing DBs is to create a
     - not cheapest
@@ -201,7 +201,7 @@
     - used for tons of data
     - used for reporting
 
-### blob containers
+## blob containers
 - container into which you can put whatever files you want
 - access levels
     - private: no anonymous access
@@ -220,7 +220,7 @@
     - cool: stored for at least 30 days
     - archive: stored for at least 180 days, cheap to store, expensive to access
 
-### Azure authentication
+## Azure authentication
 - Azure Active Directory
     - different than Windows AD
     - you can connect on-prem (Windows AD) with Azure AD
@@ -236,7 +236,7 @@
     - your app sends a request to your AD account and the AD account sends back a token to the redirect URI that you specify in the AD account application
     - you can create users for individual apps in your AD account
 
-### Azure Access Control
+## Azure Access Control
 - RBAC (role based access control)
     - give users access only to what they need
     - access is based on type + role + scope
@@ -258,7 +258,7 @@
     - the user would use the combination of access key and SAS to access the resource/etc.
     - you can revoke SAS tokens, but you can regenerate access keys
 
-### secure data
+## secure data
 - storage accounts
     - encryption at rest
         - this is turned on by default
@@ -288,7 +288,7 @@
             - ARM templates often access secrets, not just apps/APIs
         - certificates: used for HTTPS and SSL certificates
 
-### scaling apps and services
+## scaling apps and services
 - free plan and basic plan don't offer autoscaling
 - manual scaling
     - scale up: moving between plan tiers for an app service
@@ -326,7 +326,7 @@
     - this uncouples the requesting API/app/server and the receiving API/app/server since neither has to directly talk to the other
     - if an error happens over and over, you should have a special queue/log to alert someone so it can be dealt with
 
-### caching and content delivery networks
+## caching and content delivery networks
 - Redis
     - Redis is a very fast cache
     - it's an in-memory DB
@@ -349,7 +349,7 @@
             - each time your static files get updated you have to purge the caches
             - or you can version your files and specify the correct version in your app, forcing the clients to get the new version from the server and cache it instead of using the old file that was already cached
 
-### monitoring and logging
+## monitoring and logging
 - Azure Monitor
     - central spot that puts together the logs/diagnostics from all your resources
     - you can view
@@ -371,7 +371,7 @@
 - logging for Function Apps
     - you can enable Azure Insights from the monitor section of the app
 
-### consuming Azure services
+## consuming Azure services
 - Logic App
     - it's essentially a workflow
     - it's point-and-click and visual
@@ -417,7 +417,7 @@
         - you use this for large volumes of events
         - you can push these events into an Event Grid
 
-### application messaging
+## application messaging
 - queues use the FIFO model
 - Azure storage queue
     - you use a queue storage account to send messages and small pieces of data between apps
