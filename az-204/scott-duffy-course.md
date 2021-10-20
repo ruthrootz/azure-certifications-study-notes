@@ -431,5 +431,5 @@
     - supports messages >= 256kbs
     - a more expensive but more robust version of a storage queue
     - standard tier and up you can store topics as well as queues
-    - topics: while queues are one-to-one, topics can be recieved by more than one app (one-to-many)
+    - topics: while queues are one-to-one, topics can be received by more than one app (one-to-many)
     - you pay per message instead of per storage
