@@ -259,8 +259,16 @@
     - you can revoke SAS tokens, but you can regenerate access keys
 
 ### secure data
-- storage accounts are encrypted at rest by default
-- you can't turn encryption off, but you can use your own encryption key
+- storage accounts
+    - encryption at rest
+        - this is turned on by default
+        - you can't turn encryption off
+        - but you can use your own encryption key
+            - you store them in your Key Vault
+    - encryption in transit
+        - in configuration you must enable secure transfer required
+        - you then use your encryption key for transfers from/to the app that uses that storage account
+    - 
 
 ### scaling apps and services
 
