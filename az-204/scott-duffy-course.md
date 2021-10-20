@@ -398,7 +398,10 @@
     - you can add inbound policies (restrict to certain IP addresses, add custom headers, etc.)
     - you can also do outbound processing to responses going back to the client, like adding headers to the requests
 - Swagger / OpenAPI
+    - Swagger is an open standard now
+    - you can add an external API using Swagger/OpenAPI to define the documentation, etc.
 - Event Grid / Event Hub
+    - 
 
 ### application messaging
 
