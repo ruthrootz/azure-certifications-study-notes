@@ -327,10 +327,13 @@
     - if an error happens over and over, you should have a special queue/log to alert someone so it can be dealt with
 
 ### caching and content delivery networks
-- Redis is a very fast cache
-- you use the StackExchange.Redis package
-- you use the connection string from your Redis Azure resource
-- 
+- Redis
+    - Redis is a very fast cache
+    - it's an in-memory DB
+    - you use the StackExchange.Redis package
+    - you use the connection string from your Redis Azure resource
+- CDN (conent delivery n)
+    - 
 
 ### monitoring and logging
 
