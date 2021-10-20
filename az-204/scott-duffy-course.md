@@ -394,6 +394,9 @@
     - rate limit and quota your APIs
     - require clients to be approved to use the API
     - after setting up the management service, you add an API to it (could be OpenAPI, API App Service, Logic App, etc.)
+    - clients will access the API through the management service's URL and not the API's URL
+    - you can add inbound policies (restrict to certain IP addresses, add custom headers, etc.)
+    - you can also do outbound processing to responses going back to the client, like adding headers to the requests
 - Swagger / OpenAPI
 - Event Grid / Event Hub
 
