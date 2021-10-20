@@ -418,4 +418,12 @@
         - you can push these events into an Event Grid
 
 ### application messaging
-
+- Azure storage queue
+    - you use a queue storage account to send messages and small pieces of data between apps
+    - you need an access key to access a queue, just like for blob containers
+    - async messages
+    - up to 64kb messages
+    - messages usually have an expiration date
+    - reliable and cheap
+- Service Bus queue
+    - a more expensive but more robust version of a storage queue
