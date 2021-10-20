@@ -352,13 +352,21 @@
 ### monitoring and logging
 - Azure Monitor
     - central spot that puts together the logs/diognostics from all your resources
-- logging for VM
+    - you can view
+        - logs
+        - alerts
+        - metrics
+        - service health
+    - insights section
+        - you can view information by type of resource (VMs, apps, containers, etc.)
+    - under Diagnostic settings you can see all the resources you can enable logging on
+- logging for VMs
     - you have to enable monitoring
     - and choose what to performance counter to monitor and what logs to collect
     - you could choose to send the diagnostic data to Application Insights
     - you can configure the Azure Diagnositcs agent (where the logs are stored, disk quota, etc.)
-- logging for Function App
-    - 
+- logging for Function Apps
+    - you can enable Azure Insights from the monitor section of the app
 
 ### consuming Azure services
 
