@@ -392,7 +392,8 @@
     - lets you manage your API, especially public or B2B APIs
     - get analytics
     - rate limit and quota your APIs
-    - 
+    - require clients to be approved to use the API
+    - after setting up the management service, you add an API to it (could be OpenAPI, API App Service, Logic App, etc.)
 - Swagger / OpenAPI
 - Event Grid / Event Hub
 
