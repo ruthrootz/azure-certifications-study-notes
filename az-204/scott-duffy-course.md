@@ -271,7 +271,7 @@
             - it doesn't support secure transfer for custom domain names
         - you then use your encryption key for transfers from/to the app that uses that storage account
 - Azure DBs
-    - under transperent data encryption
+    - under transparent data encryption
         - automatically encrypted at rest
         - you can't turn it off
         - like with storage accounts you can choose to use your own key
@@ -281,7 +281,7 @@
 - Azure key vaults
     - you can restrict access to a key vault to only specific virtual networks
     - used to store
-        - keys: encription keys
+        - keys: encryption keys
         - secrets: for values you don't want hard-coded in your config file
             - kind of like environment variables except env vars are usually used once per build and not reused during a runtime
             - secrets have URLs
