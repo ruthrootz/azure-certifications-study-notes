@@ -280,6 +280,12 @@
     - the master DB can't be encrypted because that's the DB that stores the keys
 - Azure key vaults
     - you can restrict access to a key vault to only specific virtual networks
+    - used to store
+        - keys: encription keys
+        - secrets: for values you don't want hard-coded in your config file
+            - kind of like environment variables except env vars are usually used once per build and not reused during a runtime
+            - secrets have URLs
+        - certificates: 
 
 ### scaling apps and services
 
