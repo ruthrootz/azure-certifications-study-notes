@@ -350,7 +350,8 @@
             - or you can version your files and specify the correct version in your app, forcing the clients to get the new version from the server and cache it instead of using the old file that was already cached
 
 ### monitoring and logging
-
+- Azure Monitor
+    - central spot that puts together the logs/diognostics from all your resources
 
 ### consuming Azure services
 
