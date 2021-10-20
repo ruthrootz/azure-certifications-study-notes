@@ -235,6 +235,8 @@
     - then you activate tokens for the application (under Authentication)
     - your app sends a request to your AD account and the AD account sends back a token to the redirect URI that you specify in the AD account application
     - you can create users for individual apps in your AD account
+
+### Azure Access Control
 - RBAC (role based access control)
     - give users access only to what they need
     - access is based on type + role + scope
@@ -255,9 +257,6 @@
     - shared access signatures allow you to assign much more granular permissions
     - the user would use the combination of access key and SAS to access the resource/etc.
     - you can revoke SAS tokens, but you can regenerate access keys
-
-### Azure Access Control
-
 
 ### secure data
 
