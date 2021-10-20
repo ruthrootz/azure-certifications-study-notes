@@ -404,7 +404,7 @@
     - a way for apps to send messages to each other
     - you can add messages to a queue or a Service Bus (which is the enterprise version of a queue)
     - or you can use events
-    - event: small noifications, not much information, like a notification on your phone
+    - event: small notifications, not much information, like a notification on your phone
     - message: has more info, all the info you need to process the message, like an email in your inbox
     - Event Grid
         - for events happening in Azure
@@ -412,7 +412,7 @@
         - event sources: resource groups, event hubs, blob storage, service bus
         - event handlers: Azure Functions, Logic Apps, queue storage
     - Event Hub
-        - for events happening outside of Azure that you want your Azure resources to recieve
+        - for events happening outside of Azure that you want your Azure resources to receive
         - there is a regular event hub and an IoT event hub
         - you use this for large volumes of events
         - you can push these events into an Event Grid
