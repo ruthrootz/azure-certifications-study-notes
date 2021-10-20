@@ -324,6 +324,7 @@
     - you should implement retry or back-off policies to handle failed requests
     - you could use a queue or DB to receive requests and then let it deal with failures instead of making the app making the request make the retry requests
     - this uncouples the requesting API/app/server and the receiving API/app/server since neither has to directly talk to the other
+    - if an error happens over and over, you should have a special queue/log to alert someone so it can be dealt with
 
 ### caching and content delivery networks
 
