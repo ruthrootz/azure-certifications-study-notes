@@ -351,9 +351,9 @@
 
 ### monitoring and logging
 - Azure Monitor
-    - central spot that puts together the logs/diognostics from all your resources
+    - central spot that puts together the logs/diagnostics from all your resources
     - you can view
-        - logs: shows logs for resources that have loggin turned on
+        - logs: shows logs for resources that have logging turned on
             - logs have to be enabled on each resource
             - logs are different from metrics and diagnostic settings
             - you have to choose an Analytics Workspace to save the logs to
@@ -367,7 +367,7 @@
     - you have to enable monitoring
     - and choose what to performance counter to monitor and what logs to collect
     - you could choose to send the diagnostic data to Application Insights
-    - you can configure the Azure Diagnositcs agent (where the logs are stored, disk quota, etc.)
+    - you can configure the Azure Diagnostics agent (where the logs are stored, disk quota, etc.)
 - logging for Function Apps
     - you can enable Azure Insights from the monitor section of the app
 
