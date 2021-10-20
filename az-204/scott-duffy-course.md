@@ -353,9 +353,12 @@
 - Azure Monitor
     - central spot that puts together the logs/diognostics from all your resources
     - you can view
-        - logs
+        - logs: shows logs for resources that have loggin turned on
+            - logs have to be enabled on each resource
+            - logs are different from metrics and diagnostic settings
+            - you have to choose an Analytics Workspace to save the logs to
         - alerts
-        - metrics
+        - metrics: builds traffic/performance graphs, allows you to turn on alerts
         - service health
     - insights section
         - you can view information by type of resource (VMs, apps, containers, etc.)
