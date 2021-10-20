@@ -352,6 +352,7 @@
 ### monitoring and logging
 - Azure Monitor
     - central spot that puts together the logs/diognostics from all your resources
+    - you have to enable monitoring on your resources, like VMs, and choose what to monitor and what logs to collect
 
 ### consuming Azure services
 
