@@ -256,7 +256,7 @@
     - access keys allow users with that key to access the resource / resource group / etc.
     - shared access signatures allow you to assign much more granular permissions
     - the user would use the combination of access key and SAS to access the resource/etc.
-    - you can revoke SAS tokens, but you can regenerate access keys
+    - you can't revoke SAS tokens, but you can regenerate access keys, which invalidates existing SAS tokens
 
 ## secure data
 - storage accounts
