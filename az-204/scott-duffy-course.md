@@ -159,8 +159,8 @@
 
 ## SQL database
 - SQL Server resource
-    - the simplest way to migrate your existing DBs is to create a
-    - not cheapest
+    - the simplest way to migrate your existing DBs
+    - not the cheapest
     - you'd essentially have a VM running what you used to have hosted on your own machines
     - used if you need to really fine-tune the DBs and/or manage CPU precisely
 - Azure SQL Server resource
