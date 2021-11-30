@@ -3,7 +3,7 @@
 ### steps
 - [ ] go through Microsoft's learning paths (at the bottom of the exam pages)
 - [ ] take Udemy courses
-- [ ] fork and fill out AzureMentor notes, free-recall style
+- [ ] fork and fill out AzureMentor notes (I did this free-recall style)
 - [ ] take practice tests (many times)
 - [ ] take the exam!
 
