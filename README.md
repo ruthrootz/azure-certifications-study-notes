@@ -4,12 +4,13 @@
 - [exam](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900)
 - [notes](https://github.com/ruthrootz/azure-certifications-study-notes/blob/main/az-900)
 - resources
-    - [Microsoft Azure - Beginner's Guide + AZ-900 - UPDATED 2021 - Alan Rodrigues](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
+    - removed: [Microsoft Azure - Beginner's Guide + AZ-900 - UPDATED 2021 - Alan Rodrigues](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
+    - alternative: [AZ-900: Microsoft Azure Fundamentals Exam Prep - OCT 2021](https://www.udemy.com/course/az900-azure/)
     - [AzureMentor study guide](https://github.com/AzureMentor/Azure-AZ-900-Study-Guide)
 
 ### AZ-204
 - [exam](https://docs.microsoft.com/en-us/learn/certifications/azure-developer/)
 - [notes](https://github.com/ruthrootz/azure-certifications-study-notes/blob/main/az-204)
 - resources
-    - [AZ-204 Developing Solutions for Azure Certification 2021 - Alan Rodrigues](https://www.udemy.com/course/exam-microsoft-azure-dev/)
+    - [AZ-204 Developing for Microsoft Azure Exam Prep](https://www.udemy.com/course/70532-azure/)
     - [AzureMentor study guide](https://github.com/AzureMentor/Azure-AZ-204-Study-Guide)
