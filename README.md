@@ -13,4 +13,5 @@
 - [notes](https://github.com/ruthrootz/azure-certifications-study-notes/blob/main/az-204)
 - resources
     - [AZ-204 Developing for Microsoft Azure Exam Prep](https://www.udemy.com/course/70532-azure/)
+    - [AZ-204: Developing Solutions for MS Azure Practice Tests](https://www.udemy.com/course/az-204-practice-tests/)
     - [AzureMentor study guide](https://github.com/AzureMentor/Azure-AZ-204-Study-Guide)
