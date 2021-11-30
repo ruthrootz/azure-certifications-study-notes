@@ -15,3 +15,10 @@
     - [AZ-204 Developing for Microsoft Azure Exam Prep](https://www.udemy.com/course/70532-azure/)
     - [AZ-204: Developing Solutions for MS Azure Practice Tests](https://www.udemy.com/course/az-204-practice-tests/)
     - [AzureMentor study guide](https://github.com/AzureMentor/Azure-AZ-204-Study-Guide)
+
+### steps
+- [ ] go through Microsoft's learning paths (at the bottom of the exam pages)
+- [ ] take Udemy courses
+- [ ] fork and fill out AzureMentor notes, free-recall style
+- [ ] take practice tests (many times)
+- [ ] take the exam!
