@@ -4,7 +4,7 @@
 - [ ] go through Microsoft's learning paths (at the bottom of the exam pages)
 - [ ] take Udemy courses
 - [ ] fork and fill out AzureMentor notes (I did this free-recall style)
-- [ ] take practice tests (many times)
+- [ ] take practice tests (this is what really helped me, especially with the 204)
 - [ ] take the exam!
 
 ### AZ-900
